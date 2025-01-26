@@ -1,0 +1,669 @@
+digraph {
+	rankdir=TB
+	fontname="MS Gothic"
+	"シーホーク" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"テスコパール" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"アイネスフウジン" [height=0.1 image="img/ainesuhuuzin.png" shape=box width=0.1]
+	"シーホーク" -> "アイネスフウジン"
+	"テスコパール" -> "アイネスフウジン"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"アグネスフローラ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"アグネスタキオン" [height=0.1 image="img/agunesutakion.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "アグネスタキオン"
+	"アグネスフローラ" -> "アグネスタキオン"
+	"Crafty Prospector" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Chancey Squaw" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"アグネスデジタル" [height=0.1 image="img/agunesudezitaru.png" shape=box width=0.1]
+	"Crafty Prospector" -> "アグネスデジタル"
+	"Chancey Squaw" -> "アグネスデジタル"
+	"アドマイヤコジーン" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ラスリングカプス" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"アストンマーチャン" [height=0.1 image="img/asutonmachiyan.png" shape=box width=0.1]
+	"アドマイヤコジーン" -> "アストンマーチャン"
+	"ラスリングカプス" -> "アストンマーチャン"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ベガ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"アドマイヤベガ" [height=0.1 image="img/adomaiyabega.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "アドマイヤベガ"
+	"ベガ" -> "アドマイヤベガ"
+	"ディクタス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ダイナランディング" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"イクノディクタス" [height=0.1 image="img/ikunodeikutasu.png" shape=box width=0.1]
+	"ディクタス" -> "イクノディクタス"
+	"ダイナランディング" -> "イクノディクタス"
+	"ミルジョージ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"テイトヤシマ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"イナリワン" [height=0.1 image="img/inariwan.png" shape=box width=0.1]
+	"ミルジョージ" -> "イナリワン"
+	"テイトヤシマ" -> "イナリワン"
+	"トニービン" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"パワフルレディ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ウイニングチケット" [height=0.1 image="img/uininguchiketsuto.png" shape=box width=0.1]
+	"トニービン" -> "ウイニングチケット"
+	"パワフルレディ" -> "ウイニングチケット"
+	"ハーツクライ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"スーパーバレリーナ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ウインバリアシオン" [height=0.1 image="img/uinbariashion.png" shape=box width=0.1]
+	"ハーツクライ" -> "ウインバリアシオン"
+	"スーパーバレリーナ" -> "ウインバリアシオン"
+	"タニノギムレット" [color=lightblue fontname="MS Gothic" height=0.1 image="img/taninogimuretsuto.png" shape=box style=filled width=0.1]
+	"タニノシスター" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ウオッカ" [height=0.1 image="img/uotsuka.png" shape=box width=0.1]
+	"タニノギムレット" -> "ウオッカ"
+	"タニノシスター" -> "ウオッカ"
+	"トニービン" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ダイナカール" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"エアグルーヴ" [height=0.1 image="img/eaguruvu.png" shape=box width=0.1]
+	"トニービン" -> "エアグルーヴ"
+	"ダイナカール" -> "エアグルーヴ"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"アイドリームドアドリーム" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"エアシャカール" [height=0.1 image="img/eashiyakaru.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "エアシャカール"
+	"アイドリームドアドリーム" -> "エアシャカール"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"エアデジャヴー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"エアメサイア" [height=0.1 image="img/eamesaia.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "エアメサイア"
+	"エアデジャヴー" -> "エアメサイア"
+	"キングズベスト" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ムーンレディ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"エイシンフラッシュ" [height=0.1 image="img/eishinhuratsushiyu.png" shape=box width=0.1]
+	"キングズベスト" -> "エイシンフラッシュ"
+	"ムーンレディ" -> "エイシンフラッシュ"
+	"ゴールドアリュール" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"エミネントシチー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"エスポワールシチー" [height=0.1 image="img/esupowarushichi.png" shape=box width=0.1]
+	"ゴールドアリュール" -> "エスポワールシチー"
+	"エミネントシチー" -> "エスポワールシチー"
+	Kingmambo [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"サドラーズギャル" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"エルコンドルパサー" [height=0.1 image="img/erukondorupasa.png" shape=box width=0.1]
+	Kingmambo -> "エルコンドルパサー"
+	"サドラーズギャル" -> "エルコンドルパサー"
+	"ダンシングキャップ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ホワイトナルビー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"オグリキャップ" [height=0.1 image="img/ogurikiyatsupu.png" shape=box width=0.1]
+	"ダンシングキャップ" -> "オグリキャップ"
+	"ホワイトナルビー" -> "オグリキャップ"
+	"ステイゴールド" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"オリエンタルアート" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"オルフェーヴル" [height=0.1 image="img/oruhuevuru.png" shape=box width=0.1]
+	"ステイゴールド" -> "オルフェーヴル"
+	"オリエンタルアート" -> "オルフェーヴル"
+	"ボイズィーボーイ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"タニノベンチヤ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"カツラギエース" [height=0.1 image="img/katsuragiesu.png" shape=box width=0.1]
+	"ボイズィーボーイ" -> "カツラギエース"
+	"タニノベンチヤ" -> "カツラギエース"
+	"ウォーニング" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"オオシマルチア" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"カルストンライトオ" [height=0.1 image="img/karusutonraitoo.png" shape=box width=0.1]
+	"ウォーニング" -> "カルストンライトオ"
+	"オオシマルチア" -> "カルストンライトオ"
+	"クロフネ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"スプリングチケット" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"カレンチャン" [height=0.1 image="img/karenchiyan.png" shape=box width=0.1]
+	"クロフネ" -> "カレンチャン"
+	"スプリングチケット" -> "カレンチャン"
+	"キングヘイロー" [color=lightblue fontname="MS Gothic" height=0.1 image="img/kinguheiro.png" shape=box style=filled width=0.1]
+	"タカノセクレタリー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"カワカミプリンセス" [height=0.1 image="img/kawakamipurinsesu.png" shape=box width=0.1]
+	"キングヘイロー" -> "カワカミプリンセス"
+	"タカノセクレタリー" -> "カワカミプリンセス"
+	"ブラックタイド" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シュガーハート" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"キタサンブラック" [height=0.1 image="img/kitasanburatsuku.png" shape=box width=0.1]
+	"ブラックタイド" -> "キタサンブラック"
+	"シュガーハート" -> "キタサンブラック"
+	"ダンシングブレーヴ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"グッバイヘイロー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"キングヘイロー" [height=0.1 image="img/kinguheiro.png" shape=box width=0.1]
+	"ダンシングブレーヴ" -> "キングヘイロー"
+	"グッバイヘイロー" -> "キングヘイロー"
+	"Silver Hawk" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Ameriflora [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"グラスワンダー" [height=0.1 image="img/gurasuwanda.png" shape=box width=0.1]
+	"Silver Hawk" -> "グラスワンダー"
+	Ameriflora -> "グラスワンダー"
+	"Stutz Blackhawk" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"レディベンドフエイジヤー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ケイエスミラクル" [height=0.1 image="img/keiesumirakuru.png" shape=box width=0.1]
+	"Stutz Blackhawk" -> "ケイエスミラクル"
+	"レディベンドフエイジヤー" -> "ケイエスミラクル"
+	"ゴールドアリュール" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"コパノニキータ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"コパノリッキー" [height=0.1 image="img/kopanoritsuki.png" shape=box width=0.1]
+	"ゴールドアリュール" -> "コパノリッキー"
+	"コパノニキータ" -> "コパノリッキー"
+	"ヴァイスリーガル" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"イタリアンシチー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ゴールドシチー" [height=0.1 image="img/gorudoshichi.png" shape=box width=0.1]
+	"ヴァイスリーガル" -> "ゴールドシチー"
+	"イタリアンシチー" -> "ゴールドシチー"
+	"ステイゴールド" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ポイントフラッグ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ゴールドシップ" [height=0.1 image="img/gorudoshitsupu.png" shape=box width=0.1]
+	"ステイゴールド" -> "ゴールドシップ"
+	"ポイントフラッグ" -> "ゴールドシップ"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ワキア" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"サイレンススズカ" [height=0.1 image="img/sairensusuzuka.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "サイレンススズカ"
+	"ワキア" -> "サイレンススズカ"
+	"ネオユニヴァース" [color=lightblue fontname="MS Gothic" height=0.1 image="img/neoyunivuasu.png" shape=box style=filled width=0.1]
+	"ファーストバイオリン" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"サウンズオブアース" [height=0.1 image="img/saunzuobuasu.png" shape=box width=0.1]
+	"ネオユニヴァース" -> "サウンズオブアース"
+	"ファーストバイオリン" -> "サウンズオブアース"
+	"トニービン" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"サクラクレアー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"サクラチトセオー" [height=0.1 image="img/sakurachitoseo.png" shape=box width=0.1]
+	"トニービン" -> "サクラチトセオー"
+	"サクラクレアー" -> "サクラチトセオー"
+	"マルゼンスキー" [color=lightblue fontname="MS Gothic" height=0.1 image="img/maruzensuki.png" shape=box style=filled width=0.1]
+	"サクラセダン" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"サクラチヨノオー" [height=0.1 image="img/sakurachiyonoo.png" shape=box width=0.1]
+	"マルゼンスキー" -> "サクラチヨノオー"
+	"サクラセダン" -> "サクラチヨノオー"
+	"サクラユタカオー" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"サクラハゴロモ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"サクラバクシンオー" [height=0.1 image="img/sakurabakushino.png" shape=box width=0.1]
+	"サクラユタカオー" -> "サクラバクシンオー"
+	"サクラハゴロモ" -> "サクラバクシンオー"
+	"Rainbow Quest" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ローラローラ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"サクラローレル" [height=0.1 image="img/sakuraroreru.png" shape=box width=0.1]
+	"Rainbow Quest" -> "サクラローレル"
+	"ローラローラ" -> "サクラローレル"
+	Marju [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ジョコンダII" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"サトノクラウン" [height=0.1 image="img/satonokuraun.png" shape=box width=0.1]
+	Marju -> "サトノクラウン"
+	"ジョコンダII" -> "サトノクラウン"
+	"ディープインパクト" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"マルペンサ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"サトノダイヤモンド" [height=0.1 image="img/satonodaiyamondo.png" shape=box width=0.1]
+	"ディープインパクト" -> "サトノダイヤモンド"
+	"マルペンサ" -> "サトノダイヤモンド"
+	"サクラショウリ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シユンイチオーカン" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"サムソンビッグ" [height=0.1 image="img/samusonbitsugu.png" shape=box width=0.1]
+	"サクラショウリ" -> "サムソンビッグ"
+	"シユンイチオーカン" -> "サムソンビッグ"
+	unknown_father [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	unknown_mother [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シュガーライツ" [height=0.1 image="img/shiyugaraitsu.png" shape=box width=0.1]
+	unknown_father -> "シュガーライツ"
+	unknown_mother -> "シュガーライツ"
+	"ハーツクライ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ハルーワスウィート" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シュヴァルグラン" [height=0.1 image="img/shiyuvuaruguran.png" shape=box width=0.1]
+	"ハーツクライ" -> "シュヴァルグラン"
+	"ハルーワスウィート" -> "シュヴァルグラン"
+	"モガミ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"スイートエプソム" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シリウスシンボリ" [height=0.1 image="img/shiriusushinbori.png" shape=box width=0.1]
+	"モガミ" -> "シリウスシンボリ"
+	"スイートエプソム" -> "シリウスシンボリ"
+	"デュラブ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ローズコマンダー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シンコウウインディ" [height=0.1 image="img/shinkouuindei.png" shape=box width=0.1]
+	"デュラブ" -> "シンコウウインディ"
+	"ローズコマンダー" -> "シンコウウインディ"
+	"Kris S." [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Tee Kay" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シンボリクリスエス" [height=0.1 image="img/shinborikurisuesu.png" shape=box width=0.1]
+	"Kris S." -> "シンボリクリスエス"
+	"Tee Kay" -> "シンボリクリスエス"
+	"パーソロン" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"スイートルナ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シンボリルドルフ" [height=0.1 image="img/shinborirudoruhu.png" shape=box width=0.1]
+	"パーソロン" -> "シンボリルドルフ"
+	"スイートルナ" -> "シンボリルドルフ"
+	"Seeking the Gold" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ページプルーフ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シーキングザパール" [height=0.1 image="img/shikinguzaparu.png" shape=box width=0.1]
+	"Seeking the Gold" -> "シーキングザパール"
+	"ページプルーフ" -> "シーキングザパール"
+	"スペシャルウィーク" [color=lightblue fontname="MS Gothic" height=0.1 image="img/supeshiyaruuiku.png" shape=box style=filled width=0.1]
+	"キロフプリミエール" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シーザリオ" [height=0.1 image="img/shizario.png" shape=box width=0.1]
+	"スペシャルウィーク" -> "シーザリオ"
+	"キロフプリミエール" -> "シーザリオ"
+	"ディープインパクト" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ドナブリーニ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ジェンティルドンナ" [height=0.1 image="img/zienteirudonna.png" shape=box width=0.1]
+	"ディープインパクト" -> "ジェンティルドンナ"
+	"ドナブリーニ" -> "ジェンティルドンナ"
+	"トニービン" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ダンスチャーマー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ジャングルポケット" [height=0.1 image="img/ziyangurupoketsuto.png" shape=box width=0.1]
+	"トニービン" -> "ジャングルポケット"
+	"ダンスチャーマー" -> "ジャングルポケット"
+	"エンドスウィープ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"タバサトウショウ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"スイープトウショウ" [height=0.1 image="img/suiputoushiyou.png" shape=box width=0.1]
+	"エンドスウィープ" -> "スイープトウショウ"
+	"タバサトウショウ" -> "スイープトウショウ"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ブラダマンテ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"スティルインラブ" [height=0.1 image="img/suteiruinrabu.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "スティルインラブ"
+	"ブラダマンテ" -> "スティルインラブ"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"キャンペンガール" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"スペシャルウィーク" [height=0.1 image="img/supeshiyaruuiku.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "スペシャルウィーク"
+	"キャンペンガール" -> "スペシャルウィーク"
+	"ゴールドアリュール" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ケイシュウハーブ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"スマートファルコン" [height=0.1 image="img/sumatohuarukon.png" shape=box width=0.1]
+	"ゴールドアリュール" -> "スマートファルコン"
+	"ケイシュウハーブ" -> "スマートファルコン"
+	"ノーアテンション" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ナイスデイ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"スーパークリーク" [height=0.1 image="img/supakuriku.png" shape=box width=0.1]
+	"ノーアテンション" -> "スーパークリーク"
+	"ナイスデイ" -> "スーパークリーク"
+	"シェリフズスター" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シスターミル" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"セイウンスカイ" [height=0.1 image="img/seiunsukai.png" shape=box width=0.1]
+	"シェリフズスター" -> "セイウンスカイ"
+	"シスターミル" -> "セイウンスカイ"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ローミンレイチェル" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ゼンノロブロイ" [height=0.1 image="img/zennoroburoi.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "ゼンノロブロイ"
+	"ローミンレイチェル" -> "ゼンノロブロイ"
+	unknown_father [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	unknown_mother [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ソノンエルフィー" [height=0.1 image="img/sononeruhui.png" shape=box width=0.1]
+	unknown_father -> "ソノンエルフィー"
+	unknown_mother -> "ソノンエルフィー"
+	"Devil's Bag" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ウェルシュマフィン" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"タイキシャトル" [height=0.1 image="img/taikishiyatoru.png" shape=box width=0.1]
+	"Devil's Bag" -> "タイキシャトル"
+	"ウェルシュマフィン" -> "タイキシャトル"
+	"Pleasant Tap" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"All Dance" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"タップダンスシチー" [height=0.1 image="img/tatsupudansushichi.png" shape=box width=0.1]
+	"Pleasant Tap" -> "タップダンスシチー"
+	"All Dance" -> "タップダンスシチー"
+	"ブライアンズタイム" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"タニノクリスタル" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"タニノギムレット" [height=0.1 image="img/taninogimuretsuto.png" shape=box width=0.1]
+	"ブライアンズタイム" -> "タニノギムレット"
+	"タニノクリスタル" -> "タニノギムレット"
+	"シービークロス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"グリーンシャトー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"タマモクロス" [height=0.1 image="img/tamamokurosu.png" shape=box width=0.1]
+	"シービークロス" -> "タマモクロス"
+	"グリーンシャトー" -> "タマモクロス"
+	"トウショウボーイ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ハギノトップレディ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ダイイチルビー" [height=0.1 image="img/daiichirubi.png" shape=box width=0.1]
+	"トウショウボーイ" -> "ダイイチルビー"
+	"ハギノトップレディ" -> "ダイイチルビー"
+	"ビゼンニシキ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ネヴアーイチバン" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ダイタクヘリオス" [height=0.1 image="img/daitakuheriosu.png" shape=box width=0.1]
+	"ビゼンニシキ" -> "ダイタクヘリオス"
+	"ネヴアーイチバン" -> "ダイタクヘリオス"
+	"アグネスタキオン" [color=lightblue fontname="MS Gothic" height=0.1 image="img/agunesutakion.png" shape=box style=filled width=0.1]
+	"スカーレットブーケ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ダイワスカーレット" [height=0.1 image="img/daiwasukaretsuto.png" shape=box width=0.1]
+	"アグネスタキオン" -> "ダイワスカーレット"
+	"スカーレットブーケ" -> "ダイワスカーレット"
+	"ブライアンズタイム" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"インターピレネー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ダンツフレーム" [height=0.1 image="img/dantsuhuremu.png" shape=box width=0.1]
+	"ブライアンズタイム" -> "ダンツフレーム"
+	"インターピレネー" -> "ダンツフレーム"
+	unknown_father [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	unknown_mother [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ダーレーアラビアン" [height=0.1 image="img/darearabian.png" shape=box width=0.1]
+	unknown_father -> "ダーレーアラビアン"
+	unknown_mother -> "ダーレーアラビアン"
+	"ライラリッジ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"レーシングジイーン" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ツインターボ" [height=0.1 image="img/tsuintabo.png" shape=box width=0.1]
+	"ライラリッジ" -> "ツインターボ"
+	"レーシングジイーン" -> "ツインターボ"
+	"シンボリルドルフ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/shinborirudoruhu.png" shape=box style=filled width=0.1]
+	"スィートシエロ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ツルマルツヨシ" [height=0.1 image="img/tsurumarutsuyoshi.png" shape=box width=0.1]
+	"シンボリルドルフ" -> "ツルマルツヨシ"
+	"スィートシエロ" -> "ツルマルツヨシ"
+	"オペラハウス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ワンスウエド" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"テイエムオペラオー" [height=0.1 image="img/teiemuoperao.png" shape=box width=0.1]
+	"オペラハウス" -> "テイエムオペラオー"
+	"ワンスウエド" -> "テイエムオペラオー"
+	"エピファネイア" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"デアリングバード" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"デアリングタクト" [height=0.1 image="img/dearingutakuto.png" shape=box width=0.1]
+	"エピファネイア" -> "デアリングタクト"
+	"デアリングバード" -> "デアリングタクト"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"デアリングダンジグ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"デアリングハート" [height=0.1 image="img/dearinguhato.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "デアリングハート"
+	"デアリングダンジグ" -> "デアリングハート"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"サワヤカプリンセス" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"デュランダル" [height=0.1 image="img/deyurandaru.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "デュランダル"
+	"サワヤカプリンセス" -> "デュランダル"
+	"シンボリルドルフ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/shinborirudoruhu.png" shape=box style=filled width=0.1]
+	"トウカイナチュラル" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"トウカイテイオー" [height=0.1 image="img/toukaiteio.png" shape=box width=0.1]
+	"シンボリルドルフ" -> "トウカイテイオー"
+	"トウカイナチュラル" -> "トウカイテイオー"
+	"ワイルドラッシュ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シネマスコープ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"トランセンド" [height=0.1 image="img/toransendo.png" shape=box width=0.1]
+	"ワイルドラッシュ" -> "トランセンド"
+	"シネマスコープ" -> "トランセンド"
+	"ジャングルポケット" [color=lightblue fontname="MS Gothic" height=0.1 image="img/ziyangurupoketsuto.png" shape=box style=filled width=0.1]
+	"エヴリウィスパー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"トーセンジョーダン" [height=0.1 image="img/tosenziyodan.png" shape=box width=0.1]
+	"ジャングルポケット" -> "トーセンジョーダン"
+	"エヴリウィスパー" -> "トーセンジョーダン"
+	"キングカメハメハ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"アドマイヤグルーヴ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ドゥラメンテ" [height=0.1 image="img/douramente.png" shape=box width=0.1]
+	"キングカメハメハ" -> "ドゥラメンテ"
+	"アドマイヤグルーヴ" -> "ドゥラメンテ"
+	"ステイゴールド" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"オリエンタルアート" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ドリームジャーニー" [height=0.1 image="img/dorimuziyani.png" shape=box width=0.1]
+	"ステイゴールド" -> "ドリームジャーニー"
+	"オリエンタルアート" -> "ドリームジャーニー"
+	"ナイスダンサー" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ウラカワミユキ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ナイスネイチャ" [height=0.1 image="img/naisuneichiya.png" shape=box width=0.1]
+	"ナイスダンサー" -> "ナイスネイチャ"
+	"ウラカワミユキ" -> "ナイスネイチャ"
+	"ステイゴールド" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ディアウィンク" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ナカヤマフェスタ" [height=0.1 image="img/nakayamahuesuta.png" shape=box width=0.1]
+	"ステイゴールド" -> "ナカヤマフェスタ"
+	"ディアウィンク" -> "ナカヤマフェスタ"
+	"リヴリア" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"タイシンリリィ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ナリタタイシン" [height=0.1 image="img/naritataishin.png" shape=box width=0.1]
+	"リヴリア" -> "ナリタタイシン"
+	"タイシンリリィ" -> "ナリタタイシン"
+	"サッカーボーイ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"フローラルマジック" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ナリタトップロード" [height=0.1 image="img/naritatotsupurodo.png" shape=box width=0.1]
+	"サッカーボーイ" -> "ナリタトップロード"
+	"フローラルマジック" -> "ナリタトップロード"
+	"ブライアンズタイム" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"パシフィカス" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ナリタブライアン" [height=0.1 image="img/naritaburaian.png" shape=box width=0.1]
+	"ブライアンズタイム" -> "ナリタブライアン"
+	"パシフィカス" -> "ナリタブライアン"
+	"Majestic Light" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"デユプリシト" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ニシノフラワー" [height=0.1 image="img/nishinohurawa.png" shape=box width=0.1]
+	"Majestic Light" -> "ニシノフラワー"
+	"デユプリシト" -> "ニシノフラワー"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ポインテッドパス" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ネオユニヴァース" [height=0.1 image="img/neoyunivuasu.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "ネオユニヴァース"
+	"ポインテッドパス" -> "ネオユニヴァース"
+	"トニービン" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シヤダイフライト" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ノースフライト" [height=0.1 image="img/nosuhuraito.png" shape=box width=0.1]
+	"トニービン" -> "ノースフライト"
+	"シヤダイフライト" -> "ノースフライト"
+	"ブライアンズタイム" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"アンブロジン" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ノーリーズン" [height=0.1 image="img/norizun.png" shape=box width=0.1]
+	"ブライアンズタイム" -> "ノーリーズン"
+	"アンブロジン" -> "ノーリーズン"
+	unknown_father [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	unknown_mother [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ハッピーミーク" [height=0.1 image="img/hatsupimiku.png" shape=box width=0.1]
+	unknown_father -> "ハッピーミーク"
+	unknown_mother -> "ハッピーミーク"
+	"ニッポーテイオー" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ヒロイン" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ハルウララ" [height=0.1 image="img/haruurara.png" shape=box width=0.1]
+	"ニッポーテイオー" -> "ハルウララ"
+	"ヒロイン" -> "ハルウララ"
+	unknown_father [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	unknown_mother [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"バイアリーターク" [height=0.1 image="img/baiaritaku.png" shape=box width=0.1]
+	unknown_father -> "バイアリーターク"
+	unknown_mother -> "バイアリーターク"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"バブルカンパニー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"バブルガムフェロー" [height=0.1 image="img/baburugamuhuero.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "バブルガムフェロー"
+	"バブルカンパニー" -> "バブルガムフェロー"
+	"モーニングフローリック" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"マドンナバンブー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"バンブーメモリー" [height=0.1 image="img/banbumemori.png" shape=box width=0.1]
+	"モーニングフローリック" -> "バンブーメモリー"
+	"マドンナバンブー" -> "バンブーメモリー"
+	Woodman [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Mysteries [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ヒシアケボノ" [height=0.1 image="img/hishiakebono.png" shape=box width=0.1]
+	Woodman -> "ヒシアケボノ"
+	Mysteries -> "ヒシアケボノ"
+	Theatrical [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Katies [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ヒシアマゾン" [height=0.1 image="img/hishiamazon.png" shape=box width=0.1]
+	Theatrical -> "ヒシアマゾン"
+	Katies -> "ヒシアマゾン"
+	"サッカーボーイ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シュンサクヨシコ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ヒシミラクル" [height=0.1 image="img/hishimirakuru.png" shape=box width=0.1]
+	"サッカーボーイ" -> "ヒシミラクル"
+	"シュンサクヨシコ" -> "ヒシミラクル"
+	Danzig [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Condessa [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ビコーペガサス" [height=0.1 image="img/bikopegasasu.png" shape=box width=0.1]
+	Danzig -> "ビコーペガサス"
+	Condessa -> "ビコーペガサス"
+	unknown_father [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	unknown_mother [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ビターグラッセ" [height=0.1 image="img/bitaguratsuse.png" shape=box width=0.1]
+	unknown_father -> "ビターグラッセ"
+	unknown_mother -> "ビターグラッセ"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"グレートクリスティーヌ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ビリーヴ" [height=0.1 image="img/birivu.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "ビリーヴ"
+	"グレートクリスティーヌ" -> "ビリーヴ"
+	"シャルード" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"パシフィカス" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ビワハヤヒデ" [height=0.1 image="img/biwahayahide.png" shape=box width=0.1]
+	"シャルード" -> "ビワハヤヒデ"
+	"パシフィカス" -> "ビワハヤヒデ"
+	"デインヒル" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Cocotte [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ファインモーション" [height=0.1 image="img/huainmoshiyon.png" shape=box width=0.1]
+	"デインヒル" -> "ファインモーション"
+	Cocotte -> "ファインモーション"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ロッタレース" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"フサイチパンドラ" [height=0.1 image="img/husaichipandora.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "フサイチパンドラ"
+	"ロッタレース" -> "フサイチパンドラ"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ミルレーサー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"フジキセキ" [height=0.1 image="img/huzikiseki.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "フジキセキ"
+	"ミルレーサー" -> "フジキセキ"
+	"ブライアンズタイム" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ファーザ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"フリオーソ" [height=0.1 image="img/hurioso.png" shape=box width=0.1]
+	"ブライアンズタイム" -> "フリオーソ"
+	"ファーザ" -> "フリオーソ"
+	"スペシャルウィーク" [color=lightblue fontname="MS Gothic" height=0.1 image="img/supeshiyaruuiku.png" shape=box style=filled width=0.1]
+	"ビワハイジ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ブエナビスタ" [height=0.1 image="img/buenabisuta.png" shape=box width=0.1]
+	"スペシャルウィーク" -> "ブエナビスタ"
+	"ビワハイジ" -> "ブエナビスタ"
+	"ハービンジャー" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ツルマルワンピース" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ブラストワンピース" [height=0.1 image="img/burasutowanpisu.png" shape=box width=0.1]
+	"ハービンジャー" -> "ブラストワンピース"
+	"ツルマルワンピース" -> "ブラストワンピース"
+	"キングカメハメハ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"マダムチェロキー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ホッコータルマエ" [height=0.1 image="img/hotsukotarumae.png" shape=box width=0.1]
+	"キングカメハメハ" -> "ホッコータルマエ"
+	"マダムチェロキー" -> "ホッコータルマエ"
+	"ノーザンテースト" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"クリプシー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"マチカネタンホイザ" [height=0.1 image="img/machikanetanhoiza.png" shape=box width=0.1]
+	"ノーザンテースト" -> "マチカネタンホイザ"
+	"クリプシー" -> "マチカネタンホイザ"
+	"クリスタルグリッターズ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"アテナトウショウ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"マチカネフクキタル" [height=0.1 image="img/machikanehukukitaru.png" shape=box width=0.1]
+	"クリスタルグリッターズ" -> "マチカネフクキタル"
+	"アテナトウショウ" -> "マチカネフクキタル"
+	"ブライアンズタイム" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"アルプミープリーズ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"マヤノトップガン" [height=0.1 image="img/mayanototsupugan.png" shape=box width=0.1]
+	"ブライアンズタイム" -> "マヤノトップガン"
+	"アルプミープリーズ" -> "マヤノトップガン"
+	Nijinsky [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シル" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"マルゼンスキー" [height=0.1 image="img/maruzensuki.png" shape=box width=0.1]
+	Nijinsky -> "マルゼンスキー"
+	"シル" -> "マルゼンスキー"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"サトルチェンジ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"マンハッタンカフェ" [height=0.1 image="img/manhatsutankahue.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "マンハッタンカフェ"
+	"サトルチェンジ" -> "マンハッタンカフェ"
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"モミジダンサー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"マーベラスサンデー" [height=0.1 image="img/maberasusande.png" shape=box width=0.1]
+	"サンデーサイレンス" -> "マーベラスサンデー"
+	"モミジダンサー" -> "マーベラスサンデー"
+	"トウショウボーイ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シービークイン" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ミスターシービー" [height=0.1 image="img/misutashibi.png" shape=box width=0.1]
+	"トウショウボーイ" -> "ミスターシービー"
+	"シービークイン" -> "ミスターシービー"
+	"マグニテュード" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"カツミエコー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ミホノブルボン" [height=0.1 image="img/mihonoburubon.png" shape=box width=0.1]
+	"マグニテュード" -> "ミホノブルボン"
+	"カツミエコー" -> "ミホノブルボン"
+	Bigstone [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"プリンセスリーマ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"メイショウドトウ" [height=0.1 image="img/meishiyoudotou.png" shape=box width=0.1]
+	Bigstone -> "メイショウドトウ"
+	"プリンセスリーマ" -> "メイショウドトウ"
+	"アスワン" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"メジロヒリュウ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"メジロアルダン" [height=0.1 image="img/meziroarudan.png" shape=box width=0.1]
+	"アスワン" -> "メジロアルダン"
+	"メジロヒリュウ" -> "メジロアルダン"
+	"メジロライアン" [color=lightblue fontname="MS Gothic" height=0.1 image="img/meziroraian.png" shape=box style=filled width=0.1]
+	"メジロビューティー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"メジロドーベル" [height=0.1 image="img/mezirodoberu.png" shape=box width=0.1]
+	"メジロライアン" -> "メジロドーベル"
+	"メジロビューティー" -> "メジロドーベル"
+	"メジロイーグル" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"メジロファンタジー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"メジロパーマー" [height=0.1 image="img/meziropama.png" shape=box width=0.1]
+	"メジロイーグル" -> "メジロパーマー"
+	"メジロファンタジー" -> "メジロパーマー"
+	"メジロライアン" [color=lightblue fontname="MS Gothic" height=0.1 image="img/meziroraian.png" shape=box style=filled width=0.1]
+	"レールデュタン" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"メジロブライト" [height=0.1 image="img/meziroburaito.png" shape=box width=0.1]
+	"メジロライアン" -> "メジロブライト"
+	"レールデュタン" -> "メジロブライト"
+	"メジロティターン" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"メジロオーロラ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"メジロマックイーン" [height=0.1 image="img/meziromatsukuin.png" shape=box width=0.1]
+	"メジロティターン" -> "メジロマックイーン"
+	"メジロオーロラ" -> "メジロマックイーン"
+	"アンバーシャダイ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"メジロチェイサー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"メジロライアン" [height=0.1 image="img/meziroraian.png" shape=box width=0.1]
+	"アンバーシャダイ" -> "メジロライアン"
+	"メジロチェイサー" -> "メジロライアン"
+	"モガミ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"メジロヒリュウ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"メジロラモーヌ" [height=0.1 image="img/meziroramonu.png" shape=box width=0.1]
+	"モガミ" -> "メジロラモーヌ"
+	"メジロヒリュウ" -> "メジロラモーヌ"
+	"ヤマニンスキー" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ツルミスター" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ヤエノムテキ" [height=0.1 image="img/yaenomuteki.png" shape=box width=0.1]
+	"ヤマニンスキー" -> "ヤエノムテキ"
+	"ツルミスター" -> "ヤエノムテキ"
+	"ニホンピロウイナー" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ヤマニンポリシー" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ヤマニンゼファー" [height=0.1 image="img/yamaninzehua.png" shape=box width=0.1]
+	"ニホンピロウイナー" -> "ヤマニンゼファー"
+	"ヤマニンポリシー" -> "ヤマニンゼファー"
+	"サクラユタカオー" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ファティマ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ユキノビジン" [height=0.1 image="img/yukinobizin.png" shape=box width=0.1]
+	"サクラユタカオー" -> "ユキノビジン"
+	"ファティマ" -> "ユキノビジン"
+	"リアルシャダイ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ライラックポイント" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ライスシャワー" [height=0.1 image="img/raisushiyawa.png" shape=box width=0.1]
+	"リアルシャダイ" -> "ライスシャワー"
+	"ライラックポイント" -> "ライスシャワー"
+	unknown_father [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	unknown_mother [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ライトハロー" [height=0.1 image="img/raitoharo.png" shape=box width=0.1]
+	unknown_father -> "ライトハロー"
+	unknown_mother -> "ライトハロー"
+	"エンドスウィープ" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"マストビーラヴド" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ラインクラフト" [height=0.1 image="img/rainkurahuto.png" shape=box width=0.1]
+	"エンドスウィープ" -> "ラインクラフト"
+	"マストビーラヴド" -> "ラインクラフト"
+	unknown_father [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	unknown_mother [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"リガントーナ" [height=0.1 image="img/rigantona.png" shape=box width=0.1]
+	unknown_father -> "リガントーナ"
+	unknown_mother -> "リガントーナ"
+	unknown_father [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	unknown_mother [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"リトルココン" [height=0.1 image="img/ritorukokon.png" shape=box width=0.1]
+	unknown_father -> "リトルココン"
+	unknown_mother -> "リトルココン"
+	"トニービン" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ザツツマイパル" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ロイスアンドロイス" [height=0.1 image="img/roisuandoroisu.png" shape=box width=0.1]
+	"トニービン" -> "ロイスアンドロイス"
+	"ザツツマイパル" -> "ロイスアンドロイス"
+	"カリズマティック" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ワンダーヘリテージ" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ワンダーアキュート" [height=0.1 image="img/wandaakiyuto.png" shape=box width=0.1]
+	"カリズマティック" -> "ワンダーアキュート"
+	"ワンダーヘリテージ" -> "ワンダーアキュート"
+	"ディープインパクト" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ハルーワスウィート" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ヴィブロス" [height=0.1 image="img/vuiburosu.png" shape=box width=0.1]
+	"ディープインパクト" -> "ヴィブロス"
+	"ハルーワスウィート" -> "ヴィブロス"
+	"ディープインパクト" [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ハルーワスウィート" [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ヴィルシーナ" [height=0.1 image="img/vuirushina.png" shape=box width=0.1]
+	"ディープインパクト" -> "ヴィルシーナ"
+	"ハルーワスウィート" -> "ヴィルシーナ"
+	unknown_father [color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	unknown_mother [color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ヴェニュスパーク" [height=0.1 image="img/vueniyusupaku.png" shape=box width=0.1]
+	unknown_father -> "ヴェニュスパーク"
+	unknown_mother -> "ヴェニュスパーク"
+}
