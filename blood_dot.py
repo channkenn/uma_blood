@@ -3,6 +3,8 @@ import csv
 from unidecode import unidecode
 from graphviz import Digraph
 
+print("Current directory:", os.getcwd())
+
 # 関数: CSVファイルから血統データを読み込む
 def load_bloodline_from_csv(csv_file):
     bloodlines = []
@@ -11,6 +13,7 @@ def load_bloodline_from_csv(csv_file):
         for row in reader:
             bloodlines.append(row)
     return bloodlines
+
 # 画像ファイルのパスを確認
 def get_image_path(image_name):
     image_path = f"img/{image_name}.png"
@@ -18,28 +21,46 @@ def get_image_path(image_name):
     if not os.path.isfile(image_path):
         return "img/mob.png"
     return image_path
-# 血統図を描画して保存する関数（父と母から直接子に矢印が向かう形式）
-def create_bloodline_image_with_direct_arrows(child, father, mother):
+
+# 各行ごとに個別の血統図を生成する関数
+def create_individual_bloodline_image(row):
+    # 子・親・祖父母の情報を取得（デフォルト値: unknown_XXX）
+    child = row['名前'] if row['名前'] else "unknown_child"
+    father = row['父'] if row['父'] else "unknown_father"
+    mother = row['母'] if row['母'] else "unknown_mother"
+    father_father = row['父父'] if row['父父'] else "unknown_father_father"
+    father_mother = row['父母'] if row['父母'] else "unknown_father_mother"
+    mother_father = row['母父'] if row['母父'] else "unknown_mother_father"
+    mother_mother = row['母母'] if row['母母'] else "unknown_mother_mother"
+
     # グラフ作成
     dot = Digraph(format="svg")
-    dot.attr(rankdir="TB")
-    # 日本語フォントを指定（Windows環境の場合はMS ゴシックなど）
-    dot.attr(fontname="MS Gothic")
+    dot.attr(rankdir="TB")  # 矢印を下向きにする
+    dot.attr(fontname="MS Gothic")  # 日本語フォントを指定
 
-  # 画像をノードに挿入
-    imgFather = unidecode(father)
-    imgMother = unidecode(mother)
-    imgChild = unidecode(child)
-    dot.node(father, shape="box", style="filled", color="lightblue", fontname="MS Gothic", image=get_image_path(imgFather), width="0.1", height="0.1")  # 父ノード
-    dot.node(mother, shape="box", style="filled", color="lightcoral", fontname="MS Gothic", image=get_image_path(imgMother), width="0.1", height="0.1")  # 母ノード
-    dot.node(child, shape="box", image=get_image_path(imgChild), width="0.1", height="0.1")  # 子ノード
-    # 父→子、母→子 の矢印を追加
-    dot.edge(father, child)  # 父→子
-    dot.edge(mother, child)  # 母→子
+    # ノードを追加（祖父母も含む）
+    dot.node(father, shape="box", style="filled", color="lightblue", fontname="MS Gothic", image=get_image_path(unidecode(father)), width="0.1", height="0.1")
+    dot.node(mother, shape="box", style="filled", color="lightcoral", fontname="MS Gothic", image=get_image_path(unidecode(mother)), width="0.1", height="0.1")
+    dot.node(child, shape="box", image=get_image_path(unidecode(child)), width="0.1", height="0.1")
 
-    # ファイル名を子の名前で保存（拡張子を含めない）
+    dot.node(father_father, shape="box", style="filled", color="lightblue", fontname="MS Gothic", image=get_image_path(unidecode(father_father)), width="0.1", height="0.1")
+    dot.node(father_mother, shape="box", style="filled", color="lightcoral", fontname="MS Gothic", image=get_image_path(unidecode(father_mother)), width="0.1", height="0.1")
+    dot.node(mother_father, shape="box", style="filled", color="lightblue", fontname="MS Gothic", image=get_image_path(unidecode(mother_father)), width="0.1", height="0.1")
+    dot.node(mother_mother, shape="box", style="filled", color="lightcoral", fontname="MS Gothic", image=get_image_path(unidecode(mother_mother)), width="0.1", height="0.1")
+
+    # エッジを追加（親から子、祖父母から親）
+    dot.edge(father, child)
+    dot.edge(mother, child)
+    dot.edge(father_father, father)
+    dot.edge(father_mother, father)
+    dot.edge(mother_father, mother)
+    dot.edge(mother_mother, mother)
+
+    # SVGファイルに保存（名前をファイル名に使用）
     filename = f"{child}"
-    dot.render(filename, cleanup=True)
+    output_path = dot.render(filename, cleanup=False)
+    output_path = dot.render(filename, cleanup=False)
+    print(f"SVGファイルが生成されました: {output_path}")
 
 # CSVファイルのパス
 csv_file = "bloodline.csv"
@@ -47,11 +68,8 @@ csv_file = "bloodline.csv"
 # 血統データを読み込み
 bloodlines = load_bloodline_from_csv(csv_file)
 
-# 各行に対して血統図を作成
+# 各行ごとに血統図を作成
 for row in bloodlines:
-    child = row['名前']
-    father = row['父']
-    mother = row['母']
-    create_bloodline_image_with_direct_arrows(child, father, mother)
+    create_individual_bloodline_image(row)
 
-print("すべての血統図が作成されました。")
+print("すべての血統図が個別のSVGファイルとして作成されました。")

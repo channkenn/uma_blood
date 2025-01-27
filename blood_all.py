@@ -15,6 +15,7 @@ def load_bloodline_from_csv(csv_file):
 # 画像ファイルのパスを確認
 def get_image_path(image_name):
     image_path = f"img/{image_name}.png"
+    print("image_path:", image_path)
     # 画像ファイルが存在しない場合はデフォルト画像を使用
     if not os.path.isfile(image_path):
         return "img/mob.png"
@@ -23,27 +24,38 @@ def get_image_path(image_name):
 # すべての血統図を1つのSVGファイルにまとめる関数
 def create_combined_bloodline_image(bloodlines):
     dot = Digraph(format="svg")
-    dot.attr(rankdir="TB")  # 上から下に変更
-    dot.attr(fontname="MS Gothic")
+    dot.attr(rankdir="TB")  # 矢印を下向きにする
+    dot.attr(fontname="MS Gothic")  # 日本語フォントを指定
 
     for row in bloodlines:
+        # 子・親・祖父母の情報を取得（デフォルト値: unknown_XXX）
         child = row['名前'] if row['名前'] else "unknown_child"
         father = row['父'] if row['父'] else "unknown_father"
         mother = row['母'] if row['母'] else "unknown_mother"
-        
-        # ノード追加
-        imgFather = unidecode(father)
-        imgMother = unidecode(mother)
-        imgChild = unidecode(child)
-        
-        dot.node(father, shape="box", style="filled", color="lightblue", fontname="MS Gothic", image=get_image_path(imgFather), width="0.1", height="0.1")
-        dot.node(mother, shape="box", style="filled", color="lightcoral", fontname="MS Gothic", image=get_image_path(imgMother), width="0.1", height="0.1")
-        dot.node(child, shape="box", image=get_image_path(imgChild), width="0.1", height="0.1")
-        
-        # エッジ追加
+        father_father = row['父父'] if row['父父'] else "unknown_father_father"
+        father_mother = row['父母'] if row['父母'] else "unknown_father_mother"
+        mother_father = row['母父'] if row['母父'] else "unknown_mother_father"
+        mother_mother = row['母母'] if row['母母'] else "unknown_mother_mother"
+
+        # ノードを追加（祖父母も含む）
+        dot.node(father, shape="box", style="filled", color="lightblue", fontname="MS Gothic", image=get_image_path(unidecode(father)), width="0.1", height="0.1")
+        dot.node(mother, shape="box", style="filled", color="lightcoral", fontname="MS Gothic", image=get_image_path(unidecode(mother)), width="0.1", height="0.1")
+        dot.node(child, shape="box", image=get_image_path(unidecode(child)), width="0.1", height="0.1")
+
+        dot.node(father_father, shape="box", style="filled", color="lightblue", fontname="MS Gothic", image=get_image_path(unidecode(father_father)), width="0.1", height="0.1")
+        dot.node(father_mother, shape="box", style="filled", color="lightcoral", fontname="MS Gothic", image=get_image_path(unidecode(father_mother)), width="0.1", height="0.1")
+        dot.node(mother_father, shape="box", style="filled", color="lightblue", fontname="MS Gothic", image=get_image_path(unidecode(mother_father)), width="0.1", height="0.1")
+        dot.node(mother_mother, shape="box", style="filled", color="lightcoral", fontname="MS Gothic", image=get_image_path(unidecode(mother_mother)), width="0.1", height="0.1")
+
+        # エッジを追加（親から子、祖父母から親）
         dot.edge(father, child)
         dot.edge(mother, child)
-    
+        dot.edge(father_father, father)
+        dot.edge(father_mother, father)
+        dot.edge(mother_father, mother)
+        dot.edge(mother_mother, mother)
+
+    # グラフを保存
     output_path = dot.render("combined_bloodline", cleanup=False)
     print(f"SVGファイルが生成されました: {output_path}")
 
