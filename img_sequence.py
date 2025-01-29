@@ -3,7 +3,7 @@ import pandas as pd
 from PIL import Image, ImageDraw, ImageFont
 
 # フォルダ設定
-input_folder = "imgorg"  # 入力画像のフォルダ
+input_folder = "100px"  # 入力画像のフォルダ
 output_folder = "img"  # 出力画像のフォルダ
 csv_file = "bloodline.csv"  # CSVファイル名
 
@@ -29,9 +29,9 @@ for name, order in name_to_order.items():
         img = Image.open(img_path).convert("RGBA")  # RGBA モードで開く
         draw = ImageDraw.Draw(img)
 
-        # 四角の座標
-        box_width = 80
-        box_height = 50
+        # **画像のサイズに応じて矩形のサイズを自動調整（20%）**
+        box_width = int(img.width * 0.4)
+        box_height = int(img.height * 0.3)
         x1, y1 = 0, img.height - box_height  # 左下に配置
         x2, y2 = box_width, img.height
 
