@@ -1,0 +1,8 @@
+digraph {
+	node1 [label="
+        <<TABLE BORDER=\"0\" CELLBORDER=\"1\" CELLSPACING=\"0\">
+            <TR><TD>Top</TD></TR>
+            <TR><TD>Bottom</TD></TR>
+        </TABLE>>
+    " shape=none]
+}
