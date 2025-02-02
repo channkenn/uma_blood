@@ -23,7 +23,7 @@ def create_combined_bloodline_image(names, bloodlines_dict):
     dot = Digraph(format="svg")
     dot.attr(rankdir="TB")
     dot.attr(fontname="MS Gothic")
-    dot.attr(ranksep="7.5", nodesep="0.1")  # ノード間の間隔を広げる
+    dot.attr(ranksep="1.5", nodesep="0.1")  # ノード間の間隔を広げる
     dot.attr(bgcolor='transparent')  # 背景を透過に設定
     added_edges = set()  # 追加済みエッジを管理するセット
 

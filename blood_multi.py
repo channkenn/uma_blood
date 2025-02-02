@@ -20,7 +20,7 @@ def get_image_path(image_name):
 
 # 再帰的に血統図を生成する関数（複数の名前を処理できるように変更）
 def create_combined_bloodline_image(names, bloodlines_dict):
-    dot = Digraph(format="svg")
+    dot = Digraph(format="png")
     dot.attr(rankdir="TB")
     dot.attr(fontname="MS Gothic")
     added_edges = set()  # 追加済みエッジを管理するセット
@@ -84,7 +84,6 @@ csv_file = "bloodline.csv"
 bloodlines_dict = load_bloodline_from_csv(csv_file)
 
 # 複数の名前で血統図を作成
-names = ["シュヴァルグラン",
-         "ウインバリアシオン"         
+names = ["Eclipse",         
         ]
 create_combined_bloodline_image(names, bloodlines_dict)
