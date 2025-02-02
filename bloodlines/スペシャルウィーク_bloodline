@@ -1,0 +1,9 @@
+digraph {
+	rankdir=TB
+	fontname="MS Gothic"
+	"スペシャルウィーク" [color=lightblue fontname="MS Gothic" image="img/supeshiyaruuiku.png" penwidth=3 shape=box style=filled]
+	"サンデーサイレンス" [color=lightblue fontname="MS Gothic" image="img/mob.png" penwidth=3 shape=box style=filled]
+	"サンデーサイレンス" -> "スペシャルウィーク"
+	Halo [color=lightblue fontname="MS Gothic" image="img/mob.png" penwidth=3 shape=box style=filled]
+	Halo -> "スペシャルウィーク"
+}

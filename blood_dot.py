@@ -3,73 +3,80 @@ import csv
 from unidecode import unidecode
 from graphviz import Digraph
 
-print("Current directory:", os.getcwd())
-
-# 関数: CSVファイルから血統データを読み込む
+# CSVデータを辞書に変換
 def load_bloodline_from_csv(csv_file):
-    bloodlines = []
-    with open(csv_file, mode='r', encoding='utf-8') as file:
+    bloodlines_dict = {}
+    with open(csv_file, mode='r', encoding='utf-8-sig') as file:
         reader = csv.DictReader(file)
         for row in reader:
-            bloodlines.append(row)
-    return bloodlines
+            if row['名前']:  # 名前が空でない場合のみ追加
+                bloodlines_dict[row['名前']] = row
+    return bloodlines_dict
 
-# 画像ファイルのパスを確認
+# 画像のパス取得
 def get_image_path(image_name):
     image_path = f"img/{image_name}.png"
-    # 画像ファイルが存在しない場合はデフォルト画像を使用
-    if not os.path.isfile(image_path):
-        return "img/mob.png"
-    return image_path
+    return image_path if os.path.isfile(image_path) else "img/mob.png"
 
-# 各行ごとに個別の血統図を生成する関数
-def create_individual_bloodline_image(row):
-    # 子・親・祖父母の情報を取得（デフォルト値: unknown_XXX）
-    child = row['名前'] if row['名前'] else "unknown_child"
-    father = row['父'] if row['父'] else "unknown_father"
-    mother = row['母'] if row['母'] else "unknown_mother"
-    father_father = row['父父'] if row['父父'] else "unknown_father_father"
-    father_mother = row['父母'] if row['父母'] else "unknown_father_mother"
-    mother_father = row['母父'] if row['母父'] else "unknown_mother_father"
-    mother_mother = row['母母'] if row['母母'] else "unknown_mother_mother"
+# 再帰的に血統図を生成する関数
+# 再帰的に血統図を生成する関数
+def create_individual_bloodline_image(name, bloodlines_dict, dot=None, depth=0, added_edges=None):
+    if depth > 20:  # 無限ループ防止（15世代まで）
+        return
 
-    # グラフ作成
-    dot = Digraph(format="svg")
-    dot.attr(rankdir="TB")  # 矢印を下向きにする
-    dot.attr(fontname="MS Gothic")  # 日本語フォントを指定
+    row = bloodlines_dict.get(name)
+    if not row:
+        return
 
-    # ノードを追加（祖父母も含む）
-    dot.node(father, shape="box", style="filled", color="lightblue", fontname="MS Gothic", image=get_image_path(unidecode(father)), width="0.1", height="0.1")
-    dot.node(mother, shape="box", style="filled", color="lightcoral", fontname="MS Gothic", image=get_image_path(unidecode(mother)), width="0.1", height="0.1")
-    dot.node(child, shape="box", image=get_image_path(unidecode(child)), width="0.1", height="0.1")
+    # データ取得（デフォルト: unknown_XXX）
+    child = row['名前'] or "unknown_child"
+    father = row['父'] or "unknown_father"
+    mother = row['母'] or "unknown_mother"
+    father_father = row['父父'] or "unknown_father_father"
+    father_mother = row['父母'] or "unknown_father_mother"
+    mother_father = row['母父'] or "unknown_mother_father"
+    mother_mother = row['母母'] or "unknown_mother_mother"
 
-    dot.node(father_father, shape="box", style="filled", color="lightblue", fontname="MS Gothic", image=get_image_path(unidecode(father_father)), width="0.1", height="0.1")
-    dot.node(father_mother, shape="box", style="filled", color="lightcoral", fontname="MS Gothic", image=get_image_path(unidecode(father_mother)), width="0.1", height="0.1")
-    dot.node(mother_father, shape="box", style="filled", color="lightblue", fontname="MS Gothic", image=get_image_path(unidecode(mother_father)), width="0.1", height="0.1")
-    dot.node(mother_mother, shape="box", style="filled", color="lightcoral", fontname="MS Gothic", image=get_image_path(unidecode(mother_mother)), width="0.1", height="0.1")
+    # グラフ初期化（最初の呼び出し時のみ）
+    if dot is None:
+        dot = Digraph(format="svg")
+        dot.attr(rankdir="TB")
+        dot.attr(fontname="MS Gothic")
+        added_edges = set()  # 追加済みエッジを管理するセット
 
-    # エッジを追加（親から子、祖父母から親）
-    dot.edge(father, child)
-    dot.edge(mother, child)
-    dot.edge(father_father, father)
-    dot.edge(father_mother, father)
-    dot.edge(mother_father, mother)
-    dot.edge(mother_mother, mother)
+    # ノード追加（子）
+    if child != "unknown_child":
+        dot.node(child, shape="box", image=get_image_path(unidecode(child)), width="0.1", height="0.1", label=child)
 
-    # SVGファイルに保存（名前をファイル名に使用）
-    filename = f"{child}"
-    output_path = dot.render(filename, cleanup=False)
-    output_path = dot.render(filename, cleanup=False)
-    print(f"SVGファイルが生成されました: {output_path}")
 
-# CSVファイルのパス
+
+    # ノード追加（祖父母）
+    for grandparent, color in [(father_father, "lightblue"), (father_mother, "lightcoral"),
+                               (mother_father, "lightblue"), (mother_mother, "lightcoral")]:
+        if grandparent not in ["unknown_father_father", "unknown_father_mother", "unknown_mother_father", "unknown_mother_mother"]:
+            dot.node(grandparent, shape="box", style="filled", color=color, fontname="MS Gothic",
+                     image=get_image_path(unidecode(grandparent)), width="0.1", height="0.1", label=grandparent)
+            parent_node = father if grandparent in [father_father, father_mother] else mother
+            if (grandparent, parent_node) not in added_edges:  # すでに同じエッジがないか確認
+                dot.edge(grandparent, parent_node)
+                added_edges.add((grandparent, parent_node))
+
+    # 祖父母が血統辞書に存在するか確認
+    for grandparent in [father_father, father_mother, mother_father, mother_mother]:
+        if grandparent in bloodlines_dict:
+            create_individual_bloodline_image(grandparent, bloodlines_dict, dot, depth + 1, added_edges)
+
+    # 最初の呼び出し時のみSVGを保存
+    if depth == 0:
+        filename = f"{child}"
+        output_path = dot.render(filename, cleanup=True)
+        print(f"SVGファイルが生成されました: {output_path}")
+
+
+# CSV読み込み
 csv_file = "bloodline.csv"
-
-# 血統データを読み込み
-bloodlines = load_bloodline_from_csv(csv_file)
+bloodlines_dict = load_bloodline_from_csv(csv_file)
 
 # 各行ごとに血統図を作成
-for row in bloodlines:
-    create_individual_bloodline_image(row)
-
-print("すべての血統図が個別のSVGファイルとして作成されました。")
+for name in bloodlines_dict.keys():
+    create_individual_bloodline_image(name, bloodlines_dict)
