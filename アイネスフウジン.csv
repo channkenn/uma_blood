@@ -1,0 +1,31 @@
+名前,父,母
+アイネスフウジン,シーホーク,テスコパール
+シーホーク,Herbager,Sea Nymph
+Herbager,Vandale,Flagette
+Vandale,Plassy,Vanille
+Plassy,Bosworth,Pladda
+Vanille,La Farina,Vaya
+Flagette,Escamillo,Fidgette
+Escamillo,Firdaussi,Estoril
+Fidgette,Firdaussi,Boxeuse
+Sea Nymph,Free Man,Sea Spray
+Free Man,Norseman,Fantine
+Norseman,Umidwar,Tara
+Fantine,Fantastic,Sif
+Sea Spray,Ocean Swell,Pontoon
+Ocean Swell,Blue Peter,Jiffy
+Pontoon,Mahmoud,Ponteba
+テスコパール,テスコボーイ,ムツミパール
+テスコボーイ,Princely Gift,Suncourt
+Princely Gift,Nasrullah,Blue Gem
+Nasrullah,Nearco,Mumtaz Begum
+Blue Gem,Blue Peter,Sparkle
+Suncourt,Hyperion,Inquisition
+Hyperion,Gainsborough,Selene
+Inquisition,Dastur,Jury
+ムツミパール,モンタヴァル,マサリユウ
+モンタヴァル,Norseman,Ballynash
+Ballynash,Nasrullah,Ballywellbroke
+マサリユウ,トサミドリ,ユキツキ
+トサミドリ,プリメロ,フリツパンシー
+ユキツキ,クモハタ,スターライト

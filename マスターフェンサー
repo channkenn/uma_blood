@@ -1,0 +1,207 @@
+digraph {
+	rankdir=TB
+	fontname="MS Gothic"
+	nodesep=0.1 ranksep=2.5
+	bgcolor=transparent
+	"マスターフェンサー_0_1" [label="マスターフェンサー" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"ジャスタウェイ_1_1" [label="ジャスタウェイ" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ジャスタウェイ_1_1" -> "マスターフェンサー_0_1" [color=lightblue penwidth=5]
+	"ジャスタウェイ_1_1" [label="ジャスタウェイ" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"ハーツクライ_2_1" [label="ハーツクライ" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ハーツクライ_2_1" -> "ジャスタウェイ_1_1" [color=lightblue penwidth=5]
+	"ハーツクライ_2_1" [label="ハーツクライ" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"サンデーサイレンス_3_1" [label="サンデーサイレンス" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"サンデーサイレンス_3_1" -> "ハーツクライ_2_1" [color=lightblue penwidth=5]
+	"サンデーサイレンス_3_1" [label="サンデーサイレンス" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	Halo_4_1 [label=Halo color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Halo_4_1 -> "サンデーサイレンス_3_1" [color=lightblue penwidth=5]
+	Halo_4_1 [label=Halo URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"Hail to Reason_5_1" [label="Hail to Reason" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Hail to Reason_5_1" -> Halo_4_1 [color=lightblue penwidth=5]
+	Cosmah_5_1 [label=Cosmah color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Cosmah_5_1 -> Halo_4_1 [color=lightcoral penwidth=5]
+	"Wishing Well_4_1" [label="Wishing Well" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Wishing Well_4_1" -> "サンデーサイレンス_3_1" [color=lightcoral penwidth=5]
+	"Wishing Well_4_1" [label="Wishing Well" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	Understanding_5_1 [label=Understanding color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Understanding_5_1 -> "Wishing Well_4_1" [color=lightblue penwidth=5]
+	"Mountain Flower_5_1" [label="Mountain Flower" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Mountain Flower_5_1" -> "Wishing Well_4_1" [color=lightcoral penwidth=5]
+	"アイリッシュダンス_3_1" [label="アイリッシュダンス" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"アイリッシュダンス_3_1" -> "ハーツクライ_2_1" [color=lightcoral penwidth=5]
+	"アイリッシュダンス_3_1" [label="アイリッシュダンス" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"トニービン_4_1" [label="トニービン" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"トニービン_4_1" -> "アイリッシュダンス_3_1" [color=lightblue penwidth=5]
+	"トニービン_4_1" [label="トニービン" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"カンパラ_5_1" [label="カンパラ" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"カンパラ_5_1" -> "トニービン_4_1" [color=lightblue penwidth=5]
+	"Severn Bridge_5_1" [label="Severn Bridge" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Severn Bridge_5_1" -> "トニービン_4_1" [color=lightcoral penwidth=5]
+	"ビューパーダンス_4_1" [label="ビューパーダンス" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"ビューパーダンス_4_1" -> "アイリッシュダンス_3_1" [color=lightcoral penwidth=5]
+	"ビューパーダンス_4_1" [label="ビューパーダンス" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	Lyphard_5_1 [label=Lyphard color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Lyphard_5_1 -> "ビューパーダンス_4_1" [color=lightblue penwidth=5]
+	"My Bupers_5_1" [label="My Bupers" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"My Bupers_5_1" -> "ビューパーダンス_4_1" [color=lightcoral penwidth=5]
+	"シビル_2_1" [label="シビル" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シビル_2_1" -> "ジャスタウェイ_1_1" [color=lightcoral penwidth=5]
+	"シビル_2_1" [label="シビル" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"Wild Again_3_1" [label="Wild Again" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Wild Again_3_1" -> "シビル_2_1" [color=lightblue penwidth=5]
+	"Wild Again_3_1" [label="Wild Again" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	Icecapade_4_1 [label=Icecapade color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Icecapade_4_1 -> "Wild Again_3_1" [color=lightblue penwidth=5]
+	Icecapade_4_1 [label=Icecapade URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	Nearctic_5_1 [label=Nearctic color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Nearctic_5_1 -> Icecapade_4_1 [color=lightblue penwidth=5]
+	Shenanigans_5_1 [label=Shenanigans color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Shenanigans_5_1 -> Icecapade_4_1 [color=lightcoral penwidth=5]
+	"Bushel-n-Peck_4_1" [label="Bushel-n-Peck" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Bushel-n-Peck_4_1" -> "Wild Again_3_1" [color=lightcoral penwidth=5]
+	"Bushel-n-Peck_4_1" [label="Bushel-n-Peck" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	Khaled_5_1 [label=Khaled color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Khaled_5_1 -> "Bushel-n-Peck_4_1" [color=lightblue penwidth=5]
+	Dama_5_1 [label=Dama color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Dama_5_1 -> "Bushel-n-Peck_4_1" [color=lightcoral penwidth=5]
+	"シャロン_3_1" [label="シャロン" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"シャロン_3_1" -> "シビル_2_1" [color=lightcoral penwidth=5]
+	"シャロン_3_1" [label="シャロン" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"Mo Exception_4_1" [label="Mo Exception" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Mo Exception_4_1" -> "シャロン_3_1" [color=lightblue penwidth=5]
+	"Mo Exception_4_1" [label="Mo Exception" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"Hard Work_5_1" [label="Hard Work" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Hard Work_5_1" -> "Mo Exception_4_1" [color=lightblue penwidth=5]
+	"With Exception_5_1" [label="With Exception" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"With Exception_5_1" -> "Mo Exception_4_1" [color=lightcoral penwidth=5]
+	"Double Wiggle_4_1" [label="Double Wiggle" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Double Wiggle_4_1" -> "シャロン_3_1" [color=lightcoral penwidth=5]
+	"Double Wiggle_4_1" [label="Double Wiggle" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"Sir Wiggle_5_1" [label="Sir Wiggle" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Sir Wiggle_5_1" -> "Double Wiggle_4_1" [color=lightblue penwidth=5]
+	"Blue Double_5_1" [label="Blue Double" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Blue Double_5_1" -> "Double Wiggle_4_1" [color=lightcoral penwidth=5]
+	"セクシーザムライ_1_1" [label="セクシーザムライ" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"セクシーザムライ_1_1" -> "マスターフェンサー_0_1" [color=lightcoral penwidth=5]
+	"セクシーザムライ_1_1" [label="セクシーザムライ" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"Deputy Minister_2_1" [label="Deputy Minister" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Deputy Minister_2_1" -> "セクシーザムライ_1_1" [color=lightblue penwidth=5]
+	"Deputy Minister_2_1" [label="Deputy Minister" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"Vice Regent_3_1" [label="Vice Regent" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Vice Regent_3_1" -> "Deputy Minister_2_1" [color=lightblue penwidth=5]
+	"Vice Regent_3_1" [label="Vice Regent" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"Northern Dancer_4_1" [label="Northern Dancer" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Northern Dancer_4_1" -> "Vice Regent_3_1" [color=lightblue penwidth=5]
+	"Northern Dancer_4_1" [label="Northern Dancer" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	Nearctic_5_2 [label=Nearctic color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Nearctic_5_2 -> "Northern Dancer_4_1" [color=lightblue penwidth=5]
+	Natalma_5_1 [label=Natalma color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Natalma_5_1 -> "Northern Dancer_4_1" [color=lightcoral penwidth=5]
+	"Victoria Regina_4_1" [label="Victoria Regina" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Victoria Regina_4_1" -> "Vice Regent_3_1" [color=lightcoral penwidth=5]
+	"Victoria Regina_4_1" [label="Victoria Regina" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	Menetrier_5_1 [label=Menetrier color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Menetrier_5_1 -> "Victoria Regina_4_1" [color=lightblue penwidth=5]
+	Victoriana_5_1 [label=Victoriana color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Victoriana_5_1 -> "Victoria Regina_4_1" [color=lightcoral penwidth=5]
+	"Mint Copy_3_1" [label="Mint Copy" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Mint Copy_3_1" -> "Deputy Minister_2_1" [color=lightcoral penwidth=5]
+	"Mint Copy_3_1" [label="Mint Copy" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"Bunty's Flight_4_1" [label="Bunty's Flight" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Bunty's Flight_4_1" -> "Mint Copy_3_1" [color=lightblue penwidth=5]
+	"Bunty's Flight_4_1" [label="Bunty's Flight" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"Bunty Lawless_5_1" [label="Bunty Lawless" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Bunty Lawless_5_1" -> "Bunty's Flight_4_1" [color=lightblue penwidth=5]
+	Broomflight_5_1 [label=Broomflight color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Broomflight_5_1 -> "Bunty's Flight_4_1" [color=lightcoral penwidth=5]
+	Shakney_4_1 [label=Shakney color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Shakney_4_1 -> "Mint Copy_3_1" [color=lightcoral penwidth=5]
+	Shakney_4_1 [label=Shakney URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	Jabneh_5_1 [label=Jabneh color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Jabneh_5_1 -> Shakney_4_1 [color=lightblue penwidth=5]
+	"Grass Shack_5_1" [label="Grass Shack" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Grass Shack_5_1" -> Shakney_4_1 [color=lightcoral penwidth=5]
+	Powder_2_1 [label=Powder color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Powder_2_1 -> "セクシーザムライ_1_1" [color=lightcoral penwidth=5]
+	Powder_2_1 [label=Powder URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"Broad Brush_3_1" [label="Broad Brush" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Broad Brush_3_1" -> Powder_2_1 [color=lightblue penwidth=5]
+	"Broad Brush_3_1" [label="Broad Brush" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"Ack Ack_4_1" [label="Ack Ack" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Ack Ack_4_1" -> "Broad Brush_3_1" [color=lightblue penwidth=5]
+	"Ack Ack_4_1" [label="Ack Ack" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"Battle Joined_5_1" [label="Battle Joined" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Battle Joined_5_1" -> "Ack Ack_4_1" [color=lightblue penwidth=5]
+	"Fast Turn_5_1" [label="Fast Turn" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Fast Turn_5_1" -> "Ack Ack_4_1" [color=lightcoral penwidth=5]
+	"Hay Patcher_4_1" [label="Hay Patcher" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Hay Patcher_4_1" -> "Broad Brush_3_1" [color=lightcoral penwidth=5]
+	"Hay Patcher_4_1" [label="Hay Patcher" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"Hoist the Flag_5_1" [label="Hoist the Flag" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Hoist the Flag_5_1" -> "Hay Patcher_4_1" [color=lightblue penwidth=5]
+	"Turn to Talent_5_1" [label="Turn to Talent" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Turn to Talent_5_1" -> "Hay Patcher_4_1" [color=lightcoral penwidth=5]
+	Charette_3_1 [label=Charette color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Charette_3_1 -> Powder_2_1 [color=lightcoral penwidth=5]
+	Charette_3_1 [label=Charette URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	"Chief's Crown_4_1" [label="Chief's Crown" color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Chief's Crown_4_1" -> Charette_3_1 [color=lightblue penwidth=5]
+	"Chief's Crown_4_1" [label="Chief's Crown" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	Danzig_5_1 [label=Danzig color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Danzig_5_1 -> "Chief's Crown_4_1" [color=lightblue penwidth=5]
+	"Six Crowns_5_1" [label="Six Crowns" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Six Crowns_5_1" -> "Chief's Crown_4_1" [color=lightcoral penwidth=5]
+	"Northern Sunset_4_1" [label="Northern Sunset" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Northern Sunset_4_1" -> Charette_3_1 [color=lightcoral penwidth=5]
+	"Northern Sunset_4_1" [label="Northern Sunset" URL=unknown_wiki height=0.1 image="img/mob.png" shape=box width=0.1]
+	Northfields_5_1 [label=Northfields color=lightblue fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	Northfields_5_1 -> "Northern Sunset_4_1" [color=lightblue penwidth=5]
+	"Moss Greine_5_1" [label="Moss Greine" color=lightcoral fontname="MS Gothic" height=0.1 image="img/mob.png" shape=box style=filled width=0.1]
+	"Moss Greine_5_1" -> "Northern Sunset_4_1" [color=lightcoral penwidth=5]
+	{
+		rank=same
+		"マスターフェンサー_0_1"
+	}
+	{
+		rank=same
+		"ジャスタウェイ_1_1"
+		"セクシーザムライ_1_1"
+	}
+	{
+		rank=same
+		"ハーツクライ_2_1"
+		"シビル_2_1"
+		"Deputy Minister_2_1"
+		Powder_2_1
+	}
+	{
+		rank=same
+		"サンデーサイレンス_3_1"
+		"アイリッシュダンス_3_1"
+		"Wild Again_3_1"
+		"シャロン_3_1"
+		"Vice Regent_3_1"
+		"Mint Copy_3_1"
+		"Broad Brush_3_1"
+		Charette_3_1
+	}
+	{
+		rank=same
+		Halo_4_1
+		"Wishing Well_4_1"
+		"トニービン_4_1"
+		"ビューパーダンス_4_1"
+		Icecapade_4_1
+		"Bushel-n-Peck_4_1"
+		"Mo Exception_4_1"
+		"Double Wiggle_4_1"
+		"Northern Dancer_4_1"
+		"Victoria Regina_4_1"
+		"Bunty's Flight_4_1"
+		Shakney_4_1
+		"Ack Ack_4_1"
+		"Hay Patcher_4_1"
+		"Chief's Crown_4_1"
+		"Northern Sunset_4_1"
+	}
+}

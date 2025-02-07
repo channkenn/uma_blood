@@ -23,60 +23,72 @@ def create_combined_bloodline_image(names, bloodlines_dict):
     dot = Digraph(format="svg")
     dot.attr(rankdir="TB")
     dot.attr(fontname="MS Gothic")
-    dot.attr(ranksep="5.5", nodesep="0.1")  # ノード間の間隔を広げる
+    dot.attr(ranksep="1.5", nodesep="0.1")  # ノード間の間隔を広げる
+    dot.attr(bgcolor='transparent')  # 背景を透過に設定
     added_edges = set()  # 追加済みエッジを管理するセット
 
     def process_individual(name, depth=0):
-        if depth > 1:  # 無限ループ防止
+        if depth > 3:  # 無限ループ防止
             return
         
         row = bloodlines_dict.get(name)
         if not row:
             return
 
-        child = row['名前'] or "unknown_child"
-        father = row['父'] or "unknown_father"
-        mother = row['母'] or "unknown_mother"
-        father_father = row['父父'] or "unknown_father_father"
-        father_mother = row['父母'] or "unknown_father_mother"
-        mother_father = row['母父'] or "unknown_mother_father"
-        mother_mother = row['母母'] or "unknown_mother_mother"
+        # ノードIDをユニークにする
+        child_id = f"{name}_{depth}"
+        father_id = f"{row['父']}_{depth+1}" if row['父'] else "unknown_father"
+        mother_id = f"{row['母']}_{depth+1}" if row['母'] else "unknown_mother"
+        father_father_id = f"{row['父父']}_{depth+2}" if row['父父'] else "unknown_father_father"
+        father_mother_id = f"{row['父母']}_{depth+2}" if row['父母'] else "unknown_father_mother"
+        mother_father_id = f"{row['母父']}_{depth+2}" if row['母父'] else "unknown_mother_father"
+        mother_mother_id = f"{row['母母']}_{depth+2}" if row['母母'] else "unknown_mother_mother"
+        
+        wikiURL = row.get('wikiURL', "")
 
         # ノード追加（子）
-        if child != "unknown_child":
-            dot.node(child, shape="box", image=get_image_path(unidecode(child)), width="0.1", height="0.1", label=child)
+        dot.node(child_id, shape="box", image=get_image_path(unidecode(name)), width="0.1", height="0.1", 
+                 label=name, URL=wikiURL)
 
         # ノード追加（親）
-        for parent, color in [(father, "lightblue"), (mother, "lightcoral")]:
-            if parent not in ["unknown_father", "unknown_mother"]:
-                dot.node(parent, shape="box", style="filled", color=color, fontname="MS Gothic",
+        for parent, parent_id, color in [(row['父'], father_id, "lightblue"), (row['母'], mother_id, "lightcoral")]:
+            if parent:
+                dot.node(parent_id, shape="box", style="filled", color=color, fontname="MS Gothic",
                          image=get_image_path(unidecode(parent)), width="0.1", height="0.1", label=parent)
-                if (parent, child) not in added_edges:  # すでに同じエッジがないか確認
-                    dot.edge(parent, child)
-                    added_edges.add((parent, child))
+                if (parent_id, child_id) not in added_edges:
+                    dot.edge(parent_id, child_id, color=color, penwidth="5")
+                    added_edges.add((parent_id, child_id))
 
         # ノード追加（祖父母）
-        for grandparent, color in [(father_father, "lightblue"), (father_mother, "lightcoral"),
-                                   (mother_father, "lightblue"), (mother_mother, "lightcoral")]:
-            if grandparent not in ["unknown_father_father", "unknown_father_mother", "unknown_mother_father", "unknown_mother_mother"]:
-                dot.node(grandparent, shape="box", style="filled", color=color, fontname="MS Gothic",
+        for grandparent, grandparent_id, parent_id, color in [
+            (row['父父'], father_father_id, father_id, "lightblue"),
+            (row['父母'], father_mother_id, father_id, "lightcoral"),
+            (row['母父'], mother_father_id, mother_id, "lightblue"),
+            (row['母母'], mother_mother_id, mother_id, "lightcoral")
+        ]:
+            if grandparent:
+                dot.node(grandparent_id, shape="box", style="filled", color=color, fontname="MS Gothic",
                          image=get_image_path(unidecode(grandparent)), width="0.1", height="0.1", label=grandparent)
-                parent_node = father if grandparent in [father_father, father_mother] else mother
-                if (grandparent, parent_node) not in added_edges:  # すでに同じエッジがないか確認
-                    dot.edge(grandparent, parent_node)
-                    added_edges.add((grandparent, parent_node))
+                if (grandparent_id, parent_id) not in added_edges:
+                    dot.edge(grandparent_id, parent_id, color=color, penwidth="5")
+                    added_edges.add((grandparent_id, parent_id))
 
-        # 祖父母が血統辞書に存在するか確認
-        for grandparent in [father_father, father_mother, mother_father, mother_mother]:
+        # 祖父母が血統辞書に存在するか確認 -> 再帰処理
+        for grandparent, grandparent_id in [
+            (row['父父'], father_father_id),
+            (row['父母'], father_mother_id),
+            (row['母父'], mother_father_id),
+            (row['母母'], mother_mother_id)
+        ]:
             if grandparent in bloodlines_dict:
-                process_individual(grandparent, depth + 1)
+                process_individual(grandparent, depth + 2)
 
     # 各個体を処理
     for name in names:
         process_individual(name)
 
     # SVGファイルを保存
-    filename = "uma_blood"  # 例: "スペシャルウィーク_ウイニングチケット"
+    filename = "uma_blood_all"
     output_path = dot.render(filename, cleanup=True)
     print(f"SVGファイルが生成されました: {output_path}")
 
@@ -208,6 +220,10 @@ names = [
     "バブルガムフェロー",
     "フサイチパンドラ",
     "ブラストワンピース",
-    "サクラチトセオー"
+    "サクラチトセオー",
+    "トキノミノル",
+    "ゴドルフィンバルブ",
+    "ダーレーアラビアン",
+    "バイアリーターク"
     ]
 create_combined_bloodline_image(names, bloodlines_dict)
