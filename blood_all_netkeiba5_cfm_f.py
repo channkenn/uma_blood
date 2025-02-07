@@ -33,7 +33,8 @@ def create_combined_bloodline_image(names, bloodlines_dict):
     dot.attr(ranksep="1.5", nodesep="0.1")  # ノード間の間隔を広げる
     dot.attr(bgcolor='transparent')  # 背景を透過に設定
     added_edges = set()  # 追加済みエッジを管理するセット
-
+    # 左上固定のテキストを追加
+    dot.node("fixed_label", label="左上固定のテキスト", shape="none", pos="-1,0!")
     def process_individual(name, depth=0):
         if depth > 24:  # 無限ループ防止
             return
