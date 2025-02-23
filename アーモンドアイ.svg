@@ -12,7 +12,7 @@
 <title>アーモンドアイ_0_1</title>
 <g id="a_node1"><a xlink:href="https://www.google.com/search?q=%E3%82%A2%E3%83%BC%E3%83%A2%E3%83%B3%E3%83%89%E3%82%A2%E3%82%A4%20%28netkeiba%20OR%20wikipedia%29" xlink:title="アーモンドアイ">
 <polygon fill="none" stroke="black" points="1478.62,-77 1341.88,-77 1341.88,0 1478.62,0 1478.62,-77"/>
-<image xlink:href="img/mob.png" width="100px" height="77px" preserveAspectRatio="xMinYMin meet" x="1360.25" y="-77"/>
+<image xlink:href="img/amondoai.png" width="100px" height="77px" preserveAspectRatio="xMinYMin meet" x="1360.25" y="-77"/>
 <text text-anchor="middle" x="1410.25" y="-32.33" font-family="Times New Roman,serif" font-size="14.00">アーモンドアイ</text>
 </a>
 </g>
@@ -84,9 +84,12 @@
 <!-- Raise a Native_5_1 -->
 <g id="node6" class="node">
 <title>Raise a Native_5_1</title>
+<g id="a_node6"><a xlink:href="https://www.google.com/search?q=Raise%20a%20Native%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Raise a Native">
 <polygon fill="lightblue" stroke="lightblue" points="110.5,-1362 0,-1362 0,-1285 110.5,-1285 110.5,-1362"/>
 <image xlink:href="img/mob.png" width="100px" height="77px" preserveAspectRatio="xMinYMin meet" x="5.25" y="-1362"/>
 <text text-anchor="middle" x="55.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Raise a Native</text>
+</a>
+</g>
 </g>
 <!-- Raise a Native_5_1&#45;&gt;Mr. Prospector_4_1 -->
 <g id="edge5" class="edge">
@@ -97,9 +100,12 @@
 <!-- Gold Digger_5_1 -->
 <g id="node7" class="node">
 <title>Gold Digger_5_1</title>
+<g id="a_node7"><a xlink:href="https://www.google.com/search?q=Gold%20Digger%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Gold Digger">
 <polygon fill="lightcoral" stroke="lightcoral" points="207.38,-1362 117.12,-1362 117.12,-1285 207.38,-1285 207.38,-1362"/>
 <image xlink:href="img/mob.png" width="90.25px" height="77px" preserveAspectRatio="xMinYMin meet" x="117.125" y="-1362"/>
 <text text-anchor="middle" x="162.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Gold Digger</text>
+</a>
+</g>
 </g>
 <!-- Gold Digger_5_1&#45;&gt;Mr. Prospector_4_1 -->
 <g id="edge6" class="edge">
@@ -126,9 +132,12 @@
 <!-- Nureyev_5_1 -->
 <g id="node9" class="node">
 <title>Nureyev_5_1</title>
+<g id="a_node9"><a xlink:href="https://www.google.com/search?q=Nureyev%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Nureyev">
 <polygon fill="lightblue" stroke="lightblue" points="291.75,-1362 214.75,-1362 214.75,-1285 291.75,-1285 291.75,-1362"/>
 <image xlink:href="img/mob.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="214.75" y="-1362"/>
 <text text-anchor="middle" x="253.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Nureyev</text>
+</a>
+</g>
 </g>
 <!-- Nureyev_5_1&#45;&gt;Miesque_4_1 -->
 <g id="edge8" class="edge">
@@ -139,9 +148,12 @@
 <!-- Pasadoble_5_1 -->
 <g id="node10" class="node">
 <title>Pasadoble_5_1</title>
+<g id="a_node10"><a xlink:href="https://www.google.com/search?q=Pasadoble%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Pasadoble">
 <polygon fill="lightcoral" stroke="lightcoral" points="375.75,-1362 298.75,-1362 298.75,-1285 375.75,-1285 375.75,-1362"/>
 <image xlink:href="img/mob.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="298.75" y="-1362"/>
 <text text-anchor="middle" x="337.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Pasadoble</text>
+</a>
+</g>
 </g>
 <!-- Pasadoble_5_1&#45;&gt;Miesque_4_1 -->
 <g id="edge9" class="edge">
@@ -184,9 +196,12 @@
 <!-- トライマイベスト_5_1 -->
 <g id="node13" class="node">
 <title>トライマイベスト_5_1</title>
+<g id="a_node13"><a xlink:href="https://www.google.com/search?q=%E3%83%88%E3%83%A9%E3%82%A4%E3%83%9E%E3%82%A4%E3%83%99%E3%82%B9%E3%83%88%20%28netkeiba%20OR%20wikipedia%29" xlink:title="トライマイベスト">
 <polygon fill="lightblue" stroke="lightblue" points="513.25,-1362 383.25,-1362 383.25,-1285 513.25,-1285 513.25,-1362"/>
 <image xlink:href="img/mob.png" width="100px" height="77px" preserveAspectRatio="xMinYMin meet" x="398.25" y="-1362"/>
 <text text-anchor="middle" x="448.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">トライマイベスト</text>
+</a>
+</g>
 </g>
 <!-- トライマイベスト_5_1&#45;&gt;ラストタイクーン_4_1 -->
 <g id="edge12" class="edge">
@@ -197,9 +212,12 @@
 <!-- Mill Princess_5_1 -->
 <g id="node14" class="node">
 <title>Mill Princess_5_1</title>
+<g id="a_node14"><a xlink:href="https://www.google.com/search?q=Mill%20Princess%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Mill Princess">
 <polygon fill="lightcoral" stroke="lightcoral" points="624.12,-1362 520.38,-1362 520.38,-1285 624.12,-1285 624.12,-1362"/>
 <image xlink:href="img/mob.png" width="100px" height="77px" preserveAspectRatio="xMinYMin meet" x="522.25" y="-1362"/>
 <text text-anchor="middle" x="572.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Mill Princess</text>
+</a>
+</g>
 </g>
 <!-- Mill Princess_5_1&#45;&gt;ラストタイクーン_4_1 -->
 <g id="edge13" class="edge">
@@ -226,9 +244,12 @@
 <!-- Blakeney_5_1 -->
 <g id="node16" class="node">
 <title>Blakeney_5_1</title>
+<g id="a_node16"><a xlink:href="https://www.google.com/search?q=Blakeney%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Blakeney">
 <polygon fill="lightblue" stroke="lightblue" points="707.75,-1362 630.75,-1362 630.75,-1285 707.75,-1285 707.75,-1362"/>
 <image xlink:href="img/mob.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="630.75" y="-1362"/>
 <text text-anchor="middle" x="669.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Blakeney</text>
+</a>
+</g>
 </g>
 <!-- Blakeney_5_1&#45;&gt;Pilot Bird_4_1 -->
 <g id="edge15" class="edge">
@@ -239,9 +260,12 @@
 <!-- The Dancer_5_1 -->
 <g id="node17" class="node">
 <title>The Dancer_5_1</title>
+<g id="a_node17"><a xlink:href="https://www.google.com/search?q=The%20Dancer%20%28netkeiba%20OR%20wikipedia%29" xlink:title="The Dancer">
 <polygon fill="lightcoral" stroke="lightcoral" points="798,-1362 714.5,-1362 714.5,-1285 798,-1285 798,-1362"/>
 <image xlink:href="img/mob.png" width="83.5px" height="77px" preserveAspectRatio="xMinYMin meet" x="714.5" y="-1362"/>
 <text text-anchor="middle" x="756.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">The Dancer</text>
+</a>
+</g>
 </g>
 <!-- The Dancer_5_1&#45;&gt;Pilot Bird_4_1 -->
 <g id="edge16" class="edge">
@@ -300,9 +324,12 @@
 <!-- Northern Dancer_5_1 -->
 <g id="node21" class="node">
 <title>Northern Dancer_5_1</title>
+<g id="a_node21"><a xlink:href="https://www.google.com/search?q=Northern%20Dancer%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Northern Dancer">
 <polygon fill="lightblue" stroke="lightblue" points="921.88,-1362 804.62,-1362 804.62,-1285 921.88,-1285 921.88,-1362"/>
 <image xlink:href="img/mob.png" width="100px" height="77px" preserveAspectRatio="xMinYMin meet" x="813.25" y="-1362"/>
 <text text-anchor="middle" x="863.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Northern Dancer</text>
+</a>
+</g>
 </g>
 <!-- Northern Dancer_5_1&#45;&gt;Storm Bird_4_1 -->
 <g id="edge20" class="edge">
@@ -313,9 +340,12 @@
 <!-- South Ocean_5_1 -->
 <g id="node22" class="node">
 <title>South Ocean_5_1</title>
+<g id="a_node22"><a xlink:href="https://www.google.com/search?q=South%20Ocean%20%28netkeiba%20OR%20wikipedia%29" xlink:title="South Ocean">
 <polygon fill="lightcoral" stroke="lightcoral" points="1019.38,-1362 929.12,-1362 929.12,-1285 1019.38,-1285 1019.38,-1362"/>
 <image xlink:href="img/mob.png" width="90.25px" height="77px" preserveAspectRatio="xMinYMin meet" x="929.125" y="-1362"/>
 <text text-anchor="middle" x="974.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">South Ocean</text>
+</a>
+</g>
 </g>
 <!-- South Ocean_5_1&#45;&gt;Storm Bird_4_1 -->
 <g id="edge21" class="edge">
@@ -342,9 +372,12 @@
 <!-- Secretariat_5_1 -->
 <g id="node24" class="node">
 <title>Secretariat_5_1</title>
+<g id="a_node24"><a xlink:href="https://www.google.com/search?q=Secretariat%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Secretariat">
 <polygon fill="lightblue" stroke="lightblue" points="1116.38,-1362 1026.12,-1362 1026.12,-1285 1116.38,-1285 1116.38,-1362"/>
 <image xlink:href="img/mob.png" width="90.25px" height="77px" preserveAspectRatio="xMinYMin meet" x="1026.12" y="-1362"/>
 <text text-anchor="middle" x="1071.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Secretariat</text>
+</a>
+</g>
 </g>
 <!-- Secretariat_5_1&#45;&gt;Terlingua_4_1 -->
 <g id="edge23" class="edge">
@@ -355,9 +388,12 @@
 <!-- Crimson Saint_5_1 -->
 <g id="node25" class="node">
 <title>Crimson Saint_5_1</title>
+<g id="a_node25"><a xlink:href="https://www.google.com/search?q=Crimson%20Saint%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Crimson Saint">
 <polygon fill="lightcoral" stroke="lightcoral" points="1227.12,-1362 1123.38,-1362 1123.38,-1285 1227.12,-1285 1227.12,-1362"/>
 <image xlink:href="img/mob.png" width="100px" height="77px" preserveAspectRatio="xMinYMin meet" x="1125.25" y="-1362"/>
 <text text-anchor="middle" x="1175.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Crimson Saint</text>
+</a>
+</g>
 </g>
 <!-- Crimson Saint_5_1&#45;&gt;Terlingua_4_1 -->
 <g id="edge24" class="edge">
@@ -400,9 +436,12 @@
 <!-- His Majesty_5_1 -->
 <g id="node28" class="node">
 <title>His Majesty_5_1</title>
+<g id="a_node28"><a xlink:href="https://www.google.com/search?q=His%20Majesty%20%28netkeiba%20OR%20wikipedia%29" xlink:title="His Majesty">
 <polygon fill="lightblue" stroke="lightblue" points="1324.38,-1362 1234.12,-1362 1234.12,-1285 1324.38,-1285 1324.38,-1362"/>
 <image xlink:href="img/mob.png" width="90.25px" height="77px" preserveAspectRatio="xMinYMin meet" x="1234.12" y="-1362"/>
 <text text-anchor="middle" x="1279.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">His Majesty</text>
+</a>
+</g>
 </g>
 <!-- His Majesty_5_1&#45;&gt;Cormorant_4_1 -->
 <g id="edge27" class="edge">
@@ -413,9 +452,12 @@
 <!-- Song Sparrow_5_1 -->
 <g id="node29" class="node">
 <title>Song Sparrow_5_1</title>
+<g id="a_node29"><a xlink:href="https://www.google.com/search?q=Song%20Sparrow%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Song Sparrow">
 <polygon fill="lightcoral" stroke="lightcoral" points="1428.75,-1362 1331.75,-1362 1331.75,-1285 1428.75,-1285 1428.75,-1362"/>
 <image xlink:href="img/mob.png" width="97px" height="77px" preserveAspectRatio="xMinYMin meet" x="1331.75" y="-1362"/>
 <text text-anchor="middle" x="1380.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Song Sparrow</text>
+</a>
+</g>
 </g>
 <!-- Song Sparrow_5_1&#45;&gt;Cormorant_4_1 -->
 <g id="edge28" class="edge">
@@ -442,9 +484,12 @@
 <!-- In Reality_5_1 -->
 <g id="node31" class="node">
 <title>In Reality_5_1</title>
+<g id="a_node31"><a xlink:href="https://www.google.com/search?q=In%20Reality%20%28netkeiba%20OR%20wikipedia%29" xlink:title="In Reality">
 <polygon fill="lightblue" stroke="lightblue" points="1519,-1362 1435.5,-1362 1435.5,-1285 1519,-1285 1519,-1362"/>
 <image xlink:href="img/mob.png" width="83.5px" height="77px" preserveAspectRatio="xMinYMin meet" x="1435.5" y="-1362"/>
 <text text-anchor="middle" x="1477.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">In Reality</text>
+</a>
+</g>
 </g>
 <!-- In Reality_5_1&#45;&gt;Super Luna_4_1 -->
 <g id="edge30" class="edge">
@@ -455,9 +500,12 @@
 <!-- Alada_5_1 -->
 <g id="node32" class="node">
 <title>Alada_5_1</title>
+<g id="a_node32"><a xlink:href="https://www.google.com/search?q=Alada%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Alada">
 <polygon fill="lightcoral" stroke="lightcoral" points="1602.75,-1362 1525.75,-1362 1525.75,-1285 1602.75,-1285 1602.75,-1362"/>
 <image xlink:href="img/mob.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="1525.75" y="-1362"/>
 <text text-anchor="middle" x="1564.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Alada</text>
+</a>
+</g>
 </g>
 <!-- Alada_5_1&#45;&gt;Super Luna_4_1 -->
 <g id="edge31" class="edge">
@@ -532,9 +580,12 @@
 <!-- Turn&#45;to_5_1 -->
 <g id="node37" class="node">
 <title>Turn&#45;to_5_1</title>
+<g id="a_node37"><a xlink:href="https://www.google.com/search?q=Turn-to%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Turn&#45;to">
 <polygon fill="lightblue" stroke="lightblue" points="1686.75,-1362 1609.75,-1362 1609.75,-1285 1686.75,-1285 1686.75,-1362"/>
 <image xlink:href="img/mob.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="1609.75" y="-1362"/>
 <text text-anchor="middle" x="1648.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Turn&#45;to</text>
+</a>
+</g>
 </g>
 <!-- Turn&#45;to_5_1&#45;&gt;Hail to Reason_4_1 -->
 <g id="edge36" class="edge">
@@ -545,9 +596,12 @@
 <!-- Nothirdchance_5_1 -->
 <g id="node38" class="node">
 <title>Nothirdchance_5_1</title>
+<g id="a_node38"><a xlink:href="https://www.google.com/search?q=Nothirdchance%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Nothirdchance">
 <polygon fill="lightcoral" stroke="lightcoral" points="1797.12,-1362 1693.38,-1362 1693.38,-1285 1797.12,-1285 1797.12,-1362"/>
 <image xlink:href="img/mob.png" width="100px" height="77px" preserveAspectRatio="xMinYMin meet" x="1695.25" y="-1362"/>
 <text text-anchor="middle" x="1745.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Nothirdchance</text>
+</a>
+</g>
 </g>
 <!-- Nothirdchance_5_1&#45;&gt;Hail to Reason_4_1 -->
 <g id="edge37" class="edge">
@@ -574,9 +628,12 @@
 <!-- Cosmic Bomb_5_1 -->
 <g id="node40" class="node">
 <title>Cosmic Bomb_5_1</title>
+<g id="a_node40"><a xlink:href="https://www.google.com/search?q=Cosmic%20Bomb%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Cosmic Bomb">
 <polygon fill="lightblue" stroke="lightblue" points="1894.38,-1362 1804.12,-1362 1804.12,-1285 1894.38,-1285 1894.38,-1362"/>
 <image xlink:href="img/mob.png" width="90.25px" height="77px" preserveAspectRatio="xMinYMin meet" x="1804.12" y="-1362"/>
 <text text-anchor="middle" x="1849.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Cosmic Bomb</text>
+</a>
+</g>
 </g>
 <!-- Cosmic Bomb_5_1&#45;&gt;Cosmah_4_1 -->
 <g id="edge39" class="edge">
@@ -587,9 +644,12 @@
 <!-- Almahmoud_5_1 -->
 <g id="node41" class="node">
 <title>Almahmoud_5_1</title>
+<g id="a_node41"><a xlink:href="https://www.google.com/search?q=Almahmoud%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Almahmoud">
 <polygon fill="lightcoral" stroke="lightcoral" points="1978.75,-1362 1901.75,-1362 1901.75,-1285 1978.75,-1285 1978.75,-1362"/>
 <image xlink:href="img/mob.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="1901.75" y="-1362"/>
 <text text-anchor="middle" x="1940.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Almahmoud</text>
+</a>
+</g>
 </g>
 <!-- Almahmoud_5_1&#45;&gt;Cosmah_4_1 -->
 <g id="edge40" class="edge">
@@ -632,9 +692,12 @@
 <!-- Promised Land_5_1 -->
 <g id="node44" class="node">
 <title>Promised Land_5_1</title>
+<g id="a_node44"><a xlink:href="https://www.google.com/search?q=Promised%20Land%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Promised Land">
 <polygon fill="lightblue" stroke="lightblue" points="2089.12,-1362 1985.38,-1362 1985.38,-1285 2089.12,-1285 2089.12,-1362"/>
 <image xlink:href="img/mob.png" width="100px" height="77px" preserveAspectRatio="xMinYMin meet" x="1987.25" y="-1362"/>
 <text text-anchor="middle" x="2037.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Promised Land</text>
+</a>
+</g>
 </g>
 <!-- Promised Land_5_1&#45;&gt;Understanding_4_1 -->
 <g id="edge43" class="edge">
@@ -645,9 +708,12 @@
 <!-- Pretty Ways_5_1 -->
 <g id="node45" class="node">
 <title>Pretty Ways_5_1</title>
+<g id="a_node45"><a xlink:href="https://www.google.com/search?q=Pretty%20Ways%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Pretty Ways">
 <polygon fill="lightcoral" stroke="lightcoral" points="2186.38,-1362 2096.12,-1362 2096.12,-1285 2186.38,-1285 2186.38,-1362"/>
 <image xlink:href="img/mob.png" width="90.25px" height="77px" preserveAspectRatio="xMinYMin meet" x="2096.12" y="-1362"/>
 <text text-anchor="middle" x="2141.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Pretty Ways</text>
+</a>
+</g>
 </g>
 <!-- Pretty Ways_5_1&#45;&gt;Understanding_4_1 -->
 <g id="edge44" class="edge">
@@ -674,9 +740,12 @@
 <!-- Montparnasse_5_1 -->
 <g id="node47" class="node">
 <title>Montparnasse_5_1</title>
+<g id="a_node47"><a xlink:href="https://www.google.com/search?q=Montparnasse%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Montparnasse">
 <polygon fill="lightblue" stroke="lightblue" points="2290.75,-1362 2193.75,-1362 2193.75,-1285 2290.75,-1285 2290.75,-1362"/>
 <image xlink:href="img/mob.png" width="97px" height="77px" preserveAspectRatio="xMinYMin meet" x="2193.75" y="-1362"/>
 <text text-anchor="middle" x="2242.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Montparnasse</text>
+</a>
+</g>
 </g>
 <!-- Montparnasse_5_1&#45;&gt;Mountain Flower_4_1 -->
 <g id="edge46" class="edge">
@@ -687,9 +756,12 @@
 <!-- Edelweiss_5_1 -->
 <g id="node48" class="node">
 <title>Edelweiss_5_1</title>
+<g id="a_node48"><a xlink:href="https://www.google.com/search?q=Edelweiss%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Edelweiss">
 <polygon fill="lightcoral" stroke="lightcoral" points="2374.75,-1362 2297.75,-1362 2297.75,-1285 2374.75,-1285 2374.75,-1362"/>
 <image xlink:href="img/mob.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="2297.75" y="-1362"/>
 <text text-anchor="middle" x="2336.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Edelweiss</text>
+</a>
+</g>
 </g>
 <!-- Edelweiss_5_1&#45;&gt;Mountain Flower_4_1 -->
 <g id="edge47" class="edge">
@@ -748,9 +820,12 @@
 <!-- Nearctic_5_1 -->
 <g id="node52" class="node">
 <title>Nearctic_5_1</title>
+<g id="a_node52"><a xlink:href="https://www.google.com/search?q=Nearctic%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Nearctic">
 <polygon fill="lightblue" stroke="lightblue" points="2458.75,-1362 2381.75,-1362 2381.75,-1285 2458.75,-1285 2458.75,-1362"/>
 <image xlink:href="img/mob.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="2381.75" y="-1362"/>
 <text text-anchor="middle" x="2420.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Nearctic</text>
+</a>
+</g>
 </g>
 <!-- Nearctic_5_1&#45;&gt;Northern Dancer_4_2 -->
 <g id="edge51" class="edge">
@@ -761,9 +836,12 @@
 <!-- Natalma_5_1 -->
 <g id="node53" class="node">
 <title>Natalma_5_1</title>
+<g id="a_node53"><a xlink:href="https://www.google.com/search?q=Natalma%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Natalma">
 <polygon fill="lightcoral" stroke="lightcoral" points="2542.75,-1362 2465.75,-1362 2465.75,-1285 2542.75,-1285 2542.75,-1362"/>
 <image xlink:href="img/mob.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="2465.75" y="-1362"/>
 <text text-anchor="middle" x="2504.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Natalma</text>
+</a>
+</g>
 </g>
 <!-- Natalma_5_1&#45;&gt;Northern Dancer_4_2 -->
 <g id="edge52" class="edge">
@@ -790,9 +868,12 @@
 <!-- Forli_5_1 -->
 <g id="node55" class="node">
 <title>Forli_5_1</title>
+<g id="a_node55"><a xlink:href="https://www.google.com/search?q=Forli%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Forli">
 <polygon fill="lightblue" stroke="lightblue" points="2626.75,-1362 2549.75,-1362 2549.75,-1285 2626.75,-1285 2626.75,-1362"/>
 <image xlink:href="img/mob.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="2549.75" y="-1362"/>
 <text text-anchor="middle" x="2588.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Forli</text>
+</a>
+</g>
 </g>
 <!-- Forli_5_1&#45;&gt;Special_4_1 -->
 <g id="edge54" class="edge">
@@ -803,9 +884,12 @@
 <!-- Thong_5_1 -->
 <g id="node56" class="node">
 <title>Thong_5_1</title>
+<g id="a_node56"><a xlink:href="https://www.google.com/search?q=Thong%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Thong">
 <polygon fill="lightcoral" stroke="lightcoral" points="2710.75,-1362 2633.75,-1362 2633.75,-1285 2710.75,-1285 2710.75,-1362"/>
 <image xlink:href="img/mob.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="2633.75" y="-1362"/>
 <text text-anchor="middle" x="2672.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Thong</text>
+</a>
+</g>
 </g>
 <!-- Thong_5_1&#45;&gt;Special_4_1 -->
 <g id="edge55" class="edge">
@@ -848,9 +932,12 @@
 <!-- Tom Fool_5_1 -->
 <g id="node59" class="node">
 <title>Tom Fool_5_1</title>
+<g id="a_node59"><a xlink:href="https://www.google.com/search?q=Tom%20Fool%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Tom Fool">
 <polygon fill="lightblue" stroke="lightblue" points="2794.75,-1362 2717.75,-1362 2717.75,-1285 2794.75,-1285 2794.75,-1362"/>
 <image xlink:href="img/mob.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="2717.75" y="-1362"/>
 <text text-anchor="middle" x="2756.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Tom Fool</text>
+</a>
+</g>
 </g>
 <!-- Tom Fool_5_1&#45;&gt;Buckpasser_4_1 -->
 <g id="edge58" class="edge">
@@ -861,9 +948,12 @@
 <!-- Busanda_5_1 -->
 <g id="node60" class="node">
 <title>Busanda_5_1</title>
+<g id="a_node60"><a xlink:href="https://www.google.com/search?q=Busanda%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Busanda">
 <polygon fill="lightcoral" stroke="lightcoral" points="2878.75,-1362 2801.75,-1362 2801.75,-1285 2878.75,-1285 2878.75,-1362"/>
 <image xlink:href="img/mob.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="2801.75" y="-1362"/>
 <text text-anchor="middle" x="2840.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Busanda</text>
+</a>
+</g>
 </g>
 <!-- Busanda_5_1&#45;&gt;Buckpasser_4_1 -->
 <g id="edge59" class="edge">
@@ -890,9 +980,12 @@
 <!-- Traffic Judge_5_1 -->
 <g id="node62" class="node">
 <title>Traffic Judge_5_1</title>
+<g id="a_node62"><a xlink:href="https://www.google.com/search?q=Traffic%20Judge%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Traffic Judge">
 <polygon fill="lightblue" stroke="lightblue" points="2989.12,-1362 2885.38,-1362 2885.38,-1285 2989.12,-1285 2989.12,-1362"/>
 <image xlink:href="img/mob.png" width="100px" height="77px" preserveAspectRatio="xMinYMin meet" x="2887.25" y="-1362"/>
 <text text-anchor="middle" x="2937.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Traffic Judge</text>
+</a>
+</g>
 </g>
 <!-- Traffic Judge_5_1&#45;&gt;Best in Show_4_1 -->
 <g id="edge61" class="edge">
@@ -903,9 +996,12 @@
 <!-- Stolen Hour_5_1 -->
 <g id="node63" class="node">
 <title>Stolen Hour_5_1</title>
+<g id="a_node63"><a xlink:href="https://www.google.com/search?q=Stolen%20Hour%20%28netkeiba%20OR%20wikipedia%29" xlink:title="Stolen Hour">
 <polygon fill="lightcoral" stroke="lightcoral" points="3086.38,-1362 2996.12,-1362 2996.12,-1285 3086.38,-1285 3086.38,-1362"/>
 <image xlink:href="img/mob.png" width="90.25px" height="77px" preserveAspectRatio="xMinYMin meet" x="2996.12" y="-1362"/>
 <text text-anchor="middle" x="3041.25" y="-1317.7" font-family="MS Gothic" font-size="14.00">Stolen Hour</text>
+</a>
+</g>
 </g>
 <!-- Stolen Hour_5_1&#45;&gt;Best in Show_4_1 -->
 <g id="edge62" class="edge">

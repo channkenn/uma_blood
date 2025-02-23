@@ -5543,8 +5543,8 @@ Sir Peter Teazle,Highflyer,Papillon
 Hornet,Drone,Manilla
 Marske,Squirt,Hutton's Blacklegs Mare
 Squirt,Bartlet's Childers,Snake Mare
-Bartlet's Childers,Darley Arabian,Betty Leedes
-Darley Arabian,unknown,unknown
+Bartlet's Childers,ダーレーアラビアン,Betty Leedes
+ダーレーアラビアン,unknown,unknown
 unknown,unknown,unknown
 Betty Leedes,Old Careless,Cream Cheeks
 Old Careless,Spanker,unknown
@@ -5569,8 +5569,8 @@ Pierson's Makeless Mare,Makeless,Brimmer Mare
 Fox Cub Mare,Fox Cub,Coneyskins Mare
 Fox Cub,Clumsey,unknown
 Squirt,Bartlet's Childers,Snake Mare
-Bartlet's Childers,Darley Arabian,Betty Leedes
-Darley Arabian,unknown,unknown
+Bartlet's Childers,ダーレーアラビアン,Betty Leedes
+ダーレーアラビアン,unknown,unknown
 unknown,unknown,unknown
 Betty Leedes,Old Careless,Cream Cheeks
 Old Careless,Spanker,unknown
@@ -5589,8 +5589,8 @@ Darcy's White Turk,unknown,unknown
 Royal Mare,unknown,unknown
 Miss Darcys Pet Mare,unknown,Sedbury Royal Mare
 Sedbury Royal Mare,unknown,unknown
-Bartlet's Childers,Darley Arabian,Betty Leedes
-Darley Arabian,unknown,unknown
+Bartlet's Childers,ダーレーアラビアン,Betty Leedes
+ダーレーアラビアン,unknown,unknown
 unknown,unknown,unknown
 Betty Leedes,Old Careless,Cream Cheeks
 Old Careless,Spanker,unknown
@@ -6001,3 +6001,339 @@ With Exception,Pan Dancer,Sandy's Toughie
 Double Wiggle,Sir Wiggle,Blue Double
 Sir Wiggle,Sadair,Wiggle
 Blue Double,Nodouble,Blue Burst
+ハイセイコー,チャイナロック,ハイユウ
+チャイナロック,Rockefella,May Wong
+Rockefella,Hyperion,Rockfel
+Hyperion,Gainsborough,Selene
+Gainsborough,Bayardo,Rosedrop
+Selene,Chaucer,Serenissima
+Rockfel,Felstead,Rockliffe
+Felstead,Spion Kop,Felkington
+Rockliffe,Santorb,Sweet Rocket
+May Wong,Rustom Pasha,Wezzan
+Rustom Pasha,Son-in-Law,Cos
+Son-in-Law,Dark Ronald,Mother in Law
+Cos,Flying Orb,Renaissance
+Wezzan,Friar Marcus,Woodsprite
+Friar Marcus,Cicero,Prim Nun
+Woodsprite,Stornoway,Wood Daisy
+ハイユウ,カリム,ダルモーガン
+カリム,Nearco,Skylarking
+Nearco,Pharos,Nogara
+Pharos,Phalaris,Scapa Flow
+Nogara,Havresac,Catnip
+Skylarking,Mirza,Jennie
+Mirza,Blenheim,Mumtaz Mahal
+Jennie,Apelle,Lindos Ojos
+ダルモーガン,Beau Son,Reticent
+Beau Son,Beau Pere,Banita
+Beau Pere,Son-in-Law,Cinna
+Banita,Dark Legend,Balilla
+Reticent,Hua,Timid
+Hua,Heroic,Gladioli
+Timid,Kildare,Ardesia
+スピードシンボリ,ロイヤルチャレンヂャー,スイートイン
+ロイヤルチャレンヂャー,Royal Charger,Skerweather
+Royal Charger,Nearco,Sun Princess
+Nearco,Pharos,Nogara
+Pharos,Phalaris,Scapa Flow
+Nogara,Havresac,Catnip
+Sun Princess,Solario,Mumtaz Begum
+Solario,Gainsborough,Sun Worship
+Mumtaz Begum,Blenheim,Mumtaz Mahal
+Skerweather,Singapore,Nash Light
+Singapore,Gainsborough,Tetrabbazia
+Gainsborough,Bayardo,Rosedrop
+Tetrabbazia,The Tetrarch,Abbazia
+Nash Light,Galloper Light,Polite
+Galloper Light,Sunstar,Santa Fina
+Polite,Pommern,Starlight
+スイートイン,ライジングライト,フィーナー
+ライジングライト,Hyperion,Bread Card
+Hyperion,Gainsborough,Selene
+Selene,Chaucer,Serenissima
+Bread Card,Manna,Book Dept
+Manna,Phalaris,Waffles
+Book Dept,Buchan,Popingaol
+フィーナー,Orthodox,Sempronia
+Orthodox,Hyperion,Queen Christina
+Queen Christina,Buchan,Molly Adare
+Sempronia,Colombo,Glenabatrick
+Colombo,Manna,Lady Nairne
+Glenabatrick,Captain Cuttle,Jura
+セントライト,ダイオライト,フリツパンシー
+ダイオライト,Diophon,Needle Rock
+Diophon,Grand Parade,Donnetta
+Grand Parade,Orby,Grand Geraldine
+Orby,Orme,Rhoda B.
+Grand Geraldine,Desmond,Grand Marnier
+Donnetta,Donovan,Rinovata
+Donovan,Galopin,Mowerina
+Rinovata,Wenlock,Traviata
+Needle Rock,Rock Sand,Needlepoint
+Rock Sand,Sainfoin,Roquebrune
+Sainfoin,Springfield,Sanda
+Roquebrune,St. Simon,St. Marguerite
+Needlepoint,Isinglass,Etui
+Isinglass,Isonomy,Dead Lock
+Etui,Bread Knife,Pindi
+フリツパンシー,Flamboyant,Slip
+Flamboyant,Tracery,Simonath
+Tracery,Rock Sand,Topiary
+Topiary,Orme,Plaisanterie
+Simonath,St. Simon,Philomath
+St. Simon,Galopin,St. Angela
+Philomath,Philammon,Chrysalis
+Slip,Robert le Diable,Snip
+Robert le Diable,Ayrshire,Rose Bay
+Ayrshire,Hampton,Atalanta
+Rose Bay,Melton,Rose of Lancaster
+Snip,Donovan,Isabel
+Isabel,Plebeian,Parma
+カレンブーケドール,ディープインパクト,ソラリア
+ディープインパクト,サンデーサイレンス,ウインドインハーヘア
+サンデーサイレンス,Halo,Wishing Well
+Halo,Hail to Reason,Cosmah
+Hail to Reason,Turn-to,Nothirdchance
+Cosmah,Cosmic Bomb,Almahmoud
+Wishing Well,Understanding,Mountain Flower
+Understanding,Promised Land,Pretty Ways
+Mountain Flower,Montparnasse,Edelweiss
+ウインドインハーヘア,Alzao,Burghclere
+Alzao,Lyphard,Lady Rebecca
+Lyphard,Northern Dancer,Goofed
+Lady Rebecca,Sir Ivor,Pocahontas
+Burghclere,Busted,Highclere
+Busted,Crepello,Sans le Sou
+Highclere,Queen's Hussar,Highlight
+ソラリア,Scat Daddy,So Linda
+Scat Daddy,ヨハネスブルグ,Love Style
+ヨハネスブルグ,ヘネシー,Myth
+ヘネシー,Storm Cat,Island Kitty
+Myth,オジジアン,Yarn
+Love Style,Mr. Prospector,Likeable Style
+Mr. Prospector,Raise a Native,Gold Digger
+Likeable Style,Nijinsky,Personable Lady
+So Linda,Seeker's Reward,So Posh
+Seeker's Reward,Gone West,Willamar
+Gone West,Mr. Prospector,Secrettame
+Willamar,Northjet,Miss Mauna Lisa
+So Posh,Liloy,Osadia
+Liloy,Bold Bidder,Locust Time
+Osadia,Make Tracks,Orizaba
+クロノジェネシス,バゴ,クロノロジスト
+バゴ,Nashwan,Moonlight's Box
+Nashwan,Blushing Groom,Height of Fashion
+Blushing Groom,Red God,Runaway Bride
+Red God,Nasrullah,Spring Run
+Runaway Bride,Wild Risk,Aimee
+Height of Fashion,Bustino,Highclere
+Bustino,Busted,Ship Yard
+Highclere,Queen's Hussar,Highlight
+Moonlight's Box,Nureyev,Coup de Genie
+Nureyev,Northern Dancer,Special
+Northern Dancer,Nearctic,Natalma
+Special,Forli,Thong
+Coup de Genie,Mr. Prospector,Coup de Folie
+Mr. Prospector,Raise a Native,Gold Digger
+Coup de Folie,Halo,Raise the Standard
+クロノロジスト,クロフネ,インディスユニゾン
+クロフネ,フレンチデピュティ,ブルーアヴェニュー
+フレンチデピュティ,Deputy Minister,Mitterand
+Deputy Minister,Vice Regent,Mint Copy
+Mitterand,Hold Your Peace,Laredo Lass
+ブルーアヴェニュー,Classic Go Go,Eliza Blue
+Classic Go Go,Pago Pago,Classic Perfection
+Eliza Blue,Icecapade,コレラ
+インディスユニゾン,サンデーサイレンス,ラスティックベル
+サンデーサイレンス,Halo,Wishing Well
+Halo,Hail to Reason,Cosmah
+Wishing Well,Understanding,Mountain Flower
+ラスティックベル,Mr. Prospector,Ragtime Girl
+Ragtime Girl,Francis S.,Swinging Doll
+ラヴズオンリーユー,ディープインパクト,ラヴズオンリーミー
+ディープインパクト,サンデーサイレンス,ウインドインハーヘア
+サンデーサイレンス,Halo,Wishing Well
+Halo,Hail to Reason,Cosmah
+Hail to Reason,Turn-to,Nothirdchance
+Cosmah,Cosmic Bomb,Almahmoud
+Wishing Well,Understanding,Mountain Flower
+Understanding,Promised Land,Pretty Ways
+Mountain Flower,Montparnasse,Edelweiss
+ウインドインハーヘア,Alzao,Burghclere
+Alzao,Lyphard,Lady Rebecca
+Lyphard,Northern Dancer,Goofed
+Lady Rebecca,Sir Ivor,Pocahontas
+Burghclere,Busted,Highclere
+Busted,Crepello,Sans le Sou
+Highclere,Queen's Hussar,Highlight
+ラヴズオンリーミー,Storm Cat,Monevassia
+Storm Cat,Storm Bird,Terlingua
+Storm Bird,Northern Dancer,South Ocean
+Northern Dancer,Nearctic,Natalma
+South Ocean,New Providence,Shining Sun
+Terlingua,Secretariat,Crimson Saint
+Secretariat,Bold Ruler,Somethingroyal
+Crimson Saint,Crimson Satan,Bolero Rose
+Monevassia,Mr. Prospector,Miesque
+Mr. Prospector,Raise a Native,Gold Digger
+Raise a Native,Native Dancer,Raise You
+Gold Digger,Nashua,Sequence
+Miesque,Nureyev,Pasadoble
+Nureyev,Northern Dancer,Special
+Pasadoble,Prove Out,Santa Quilla
+グランアレグリア,ディープインパクト,タピッツフライ
+ディープインパクト,サンデーサイレンス,ウインドインハーヘア
+サンデーサイレンス,Halo,Wishing Well
+Halo,Hail to Reason,Cosmah
+Hail to Reason,Turn-to,Nothirdchance
+Cosmah,Cosmic Bomb,Almahmoud
+Wishing Well,Understanding,Mountain Flower
+Understanding,Promised Land,Pretty Ways
+Mountain Flower,Montparnasse,Edelweiss
+ウインドインハーヘア,Alzao,Burghclere
+Alzao,Lyphard,Lady Rebecca
+Lyphard,Northern Dancer,Goofed
+Lady Rebecca,Sir Ivor,Pocahontas
+Burghclere,Busted,Highclere
+Busted,Crepello,Sans le Sou
+Highclere,Queen's Hussar,Highlight
+タピッツフライ,Tapit,Flying Marlin
+Tapit,Pulpit,Tap Your Heels
+Pulpit,A.P. Indy,Preach
+A.P. Indy,Seattle Slew,Weekend Surprise
+Preach,Mr. Prospector,Narrate
+Tap Your Heels,Unbridled,Ruby Slippers
+Unbridled,Fappiano,Gana Facil
+Ruby Slippers,Nijinsky,Moon Glitter
+Flying Marlin,Marlin,Morning Dove
+Marlin,Sword Dance,Syrian Summer
+Sword Dance,Nijinsky,Rosa Mundi
+Syrian Summer,Damascus,Special Warmth
+Morning Dove,Fortunate Prospect,Pink Dove
+Fortunate Prospect,Northern Prospect,Fortunate Bid
+Pink Dove,Argument,Perfect Pigeon
+ラッキーライラック,オルフェーヴル,ライラックスアンドレース
+オルフェーヴル,ステイゴールド,オリエンタルアート
+ステイゴールド,サンデーサイレンス,ゴールデンサッシュ
+サンデーサイレンス,Halo,Wishing Well
+Halo,Hail to Reason,Cosmah
+Wishing Well,Understanding,Mountain Flower
+ゴールデンサッシュ,ディクタス,ダイナサッシュ
+ディクタス,Sanctus,Doronic
+ダイナサッシュ,ノーザンテースト,ロイヤルサッシュ
+オリエンタルアート,メジロマックイーン,エレクトロアート
+メジロマックイーン,メジロティターン,メジロオーロラ
+メジロティターン,メジロアサマ,シエリル
+メジロオーロラ,リマンド,メジロアイリス
+エレクトロアート,ノーザンテースト,グランマスティーヴンス
+ノーザンテースト,Northern Dancer,Lady Victoria
+グランマスティーヴンス,Lt. Stevens,Dhow
+ライラックスアンドレース,Flower Alley,Refinement
+Flower Alley,Distorted Humor,プリンセスオリビア
+Distorted Humor,フォーティナイナー,Danzig's Beauty
+フォーティナイナー,Mr. Prospector,File
+Danzig's Beauty,Danzig,Sweetest Chant
+プリンセスオリビア,Lycius,Dance Image
+Lycius,Mr. Prospector,Lypatia
+Dance Image,Sadler's Wells,Diamond Spring
+Refinement,Seattle Slew,ステラマドリッド
+Seattle Slew,Bold Reasoning,My Charmer
+Bold Reasoning,Boldnesian,Reason to Earn
+My Charmer,Poker,Fair Charmer
+ステラマドリッド,Alydar,My Juliet
+Alydar,Raise a Native,Sweet Tooth
+My Juliet,Gallant Romeo,My Bupers
+アーモンドアイ,ロードカナロア,フサイチパンドラ
+ロードカナロア,キングカメハメハ,レディブラッサム
+キングカメハメハ,Kingmambo,マンファス
+Kingmambo,Mr. Prospector,Miesque
+Mr. Prospector,Raise a Native,Gold Digger
+Miesque,Nureyev,Pasadoble
+マンファス,ラストタイクーン,Pilot Bird
+ラストタイクーン,トライマイベスト,Mill Princess
+Pilot Bird,Blakeney,The Dancer
+レディブラッサム,Storm Cat,サラトガデュー
+Storm Cat,Storm Bird,Terlingua
+Storm Bird,Northern Dancer,South Ocean
+Terlingua,Secretariat,Crimson Saint
+サラトガデュー,Cormorant,Super Luna
+Cormorant,His Majesty,Song Sparrow
+Super Luna,In Reality,Alada
+フサイチパンドラ,サンデーサイレンス,ロッタレース
+サンデーサイレンス,Halo,Wishing Well
+Halo,Hail to Reason,Cosmah
+Hail to Reason,Turn-to,Nothirdchance
+Cosmah,Cosmic Bomb,Almahmoud
+Wishing Well,Understanding,Mountain Flower
+Understanding,Promised Land,Pretty Ways
+Mountain Flower,Montparnasse,Edelweiss
+ロッタレース,Nureyev,Sex Appeal
+Nureyev,Northern Dancer,Special
+Northern Dancer,Nearctic,Natalma
+Special,Forli,Thong
+Sex Appeal,Buckpasser,Best in Show
+Buckpasser,Tom Fool,Busanda
+Best in Show,Traffic Judge,Stolen Hour
+フェノーメノ,ステイゴールド,ディラローシェ
+ステイゴールド,サンデーサイレンス,ゴールデンサッシュ
+サンデーサイレンス,Halo,Wishing Well
+Halo,Hail to Reason,Cosmah
+Hail to Reason,Turn-to,Nothirdchance
+Cosmah,Cosmic Bomb,Almahmoud
+Wishing Well,Understanding,Mountain Flower
+Understanding,Promised Land,Pretty Ways
+Mountain Flower,Montparnasse,Edelweiss
+ゴールデンサッシュ,ディクタス,ダイナサッシュ
+ディクタス,Sanctus,Doronic
+Sanctus,Fine Top,Sanelta
+Doronic,Worden,Dulzetta
+ダイナサッシュ,ノーザンテースト,ロイヤルサッシュ
+ノーザンテースト,Northern Dancer,Lady Victoria
+ロイヤルサッシュ,Princely Gift,Sash of Honour
+ディラローシェ,デインヒル,Sea Port
+デインヒル,Danzig,Razyana
+Danzig,Northern Dancer,Pas de Nom
+Northern Dancer,Nearctic,Natalma
+Pas de Nom,Admiral's Voyage,Petitioner
+Razyana,His Majesty,Spring Adieu
+His Majesty,Ribot,Flower Bowl
+Spring Adieu,Buckpasser,Natalma
+Sea Port,Averof,Anchor
+Averof,Sing Sing,Argentina
+Sing Sing,Tudor Minstrel,Agin the Law
+Argentina,Nearco,Silvery Moon
+Anchor,Major Portion,Ripeck
+Major Portion,Court Martial,Better Half
+Ripeck,Ribot,Kyak
+Ormonde,Bend Or,Lily Agnes
+Bend Or,Doncaster,Rouge Rose
+Doncaster,Stockwell,Marigold
+Stockwell,The Baron,Pocahontas
+The Baron,Birdcatcher,Echidna
+Pocahontas,Glencoe,Marpessa
+Marigold,Teddington,Ratan Mare
+Teddington,Orlando,Miss Twickenham
+Ratan Mare,Ratan,Melbourne Mare
+Rouge Rose,Thormanby,Ellen Horne
+Thormanby,Windhound,Alice Hawthorn
+Windhound,Pantaloon,Phryne
+Alice Hawthorn,Muley Moloch,Rebecca
+Ellen Horne,Redshank,Delhi
+Redshank,Sandbeck,Johanna
+Delhi,Plenipotentiary,Pawn Junior
+Lily Agnes,Macaroni,Polly Agnes
+Macaroni,Sweetmeat,Jocose
+Sweetmeat,Gladiator,Lollypop
+Gladiator,Partisan,Pauline
+Lollypop,Voltaire,Belinda
+Jocose,Pantaloon,Banter
+Pantaloon,Castrel,Idalia
+Banter,Master Henry,Boadicea
+Polly Agnes,The Cure,Miss Agnes
+The Cure,Physician,Morsel
+Physician,Brutandorf,Primette
+Morsel,Mulatto,Linda
+Miss Agnes,Birdcatcher,Agnes
+Birdcatcher,Sir Hercules,Guiccioli
+Agnes,Clarion,Annette

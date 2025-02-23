@@ -1,0 +1,30 @@
+名前,父,母
+スピードシンボリ,ロイヤルチャレンヂャー,スイートイン
+ロイヤルチャレンヂャー,Royal Charger,Skerweather
+Royal Charger,Nearco,Sun Princess
+Nearco,Pharos,Nogara
+Pharos,Phalaris,Scapa Flow
+Nogara,Havresac,Catnip
+Sun Princess,Solario,Mumtaz Begum
+Solario,Gainsborough,Sun Worship
+Mumtaz Begum,Blenheim,Mumtaz Mahal
+Skerweather,Singapore,Nash Light
+Singapore,Gainsborough,Tetrabbazia
+Gainsborough,Bayardo,Rosedrop
+Tetrabbazia,The Tetrarch,Abbazia
+Nash Light,Galloper Light,Polite
+Galloper Light,Sunstar,Santa Fina
+Polite,Pommern,Starlight
+スイートイン,ライジングライト,フィーナー
+ライジングライト,Hyperion,Bread Card
+Hyperion,Gainsborough,Selene
+Selene,Chaucer,Serenissima
+Bread Card,Manna,Book Dept
+Manna,Phalaris,Waffles
+Book Dept,Buchan,Popingaol
+フィーナー,Orthodox,Sempronia
+Orthodox,Hyperion,Queen Christina
+Queen Christina,Buchan,Molly Adare
+Sempronia,Colombo,Glenabatrick
+Colombo,Manna,Lady Nairne
+Glenabatrick,Captain Cuttle,Jura
