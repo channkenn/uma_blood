@@ -77,7 +77,7 @@
 <!-- エルコンドルパサー -->
 <g id="node14" class="node">
 <title>エルコンドルパサー</title>
-<g id="a_node14"><a xlink:href="https://umamusume.jp/character/elcondorpasa">
+<g id="a_node14"><a xlink:href="https://umamusume.jp/character/elcondorpasa&quot;">
 <polygon fill="none" stroke="black" points="362,-1320 285,-1320 285,-1243 362,-1243 362,-1320"/>
 <image xlink:href="img/erukondorupasa.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="285" y="-1320"/>
 </a>
@@ -96,7 +96,7 @@
 <!-- テイエムオペラオー -->
 <g id="node15" class="node">
 <title>テイエムオペラオー</title>
-<g id="a_node15"><a xlink:href="https://umamusume.jp/character/tmoperao">
+<g id="a_node15"><a xlink:href="https://umamusume.jp/character/tmoperao&quot;">
 <polygon fill="none" stroke="black" points="457,-1320 380,-1320 380,-1243 457,-1243 457,-1320"/>
 <image xlink:href="img/teiemuoperao.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="380" y="-1320"/>
 </a>
@@ -115,7 +115,7 @@
 <!-- ナリタブライアン -->
 <g id="node16" class="node">
 <title>ナリタブライアン</title>
-<g id="a_node16"><a xlink:href="https://umamusume.jp/character/naritabrian">
+<g id="a_node16"><a xlink:href="https://umamusume.jp/character/naritabrian&quot;">
 <polygon fill="none" stroke="black" points="552,-1320 475,-1320 475,-1243 552,-1243 552,-1320"/>
 <image xlink:href="img/naritaburaian.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="475" y="-1320"/>
 </a>
@@ -134,7 +134,7 @@
 <!-- シンボリルドルフ -->
 <g id="node17" class="node">
 <title>シンボリルドルフ</title>
-<g id="a_node17"><a xlink:href="https://umamusume.jp/character/symbolirudolf">
+<g id="a_node17"><a xlink:href="https://umamusume.jp/character/symbolirudolf&quot;">
 <polygon fill="none" stroke="black" points="647,-1320 570,-1320 570,-1243 647,-1243 647,-1320"/>
 <image xlink:href="img/shinborirudoruhu.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="570" y="-1320"/>
 </a>
@@ -153,7 +153,7 @@
 <!-- エアグルーヴ -->
 <g id="node18" class="node">
 <title>エアグルーヴ</title>
-<g id="a_node18"><a xlink:href="https://umamusume.jp/character/airgroove">
+<g id="a_node18"><a xlink:href="https://umamusume.jp/character/airgroove&quot;">
 <polygon fill="none" stroke="black" points="742,-1320 665,-1320 665,-1243 742,-1243 742,-1320"/>
 <image xlink:href="img/eaguruvu.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="665" y="-1320"/>
 </a>
@@ -172,7 +172,7 @@
 <!-- アグネスデジタル -->
 <g id="node19" class="node">
 <title>アグネスデジタル</title>
-<g id="a_node19"><a xlink:href="https://umamusume.jp/character/agnesdigital">
+<g id="a_node19"><a xlink:href="https://umamusume.jp/character/agnesdigital&quot;">
 <polygon fill="none" stroke="black" points="837,-1320 760,-1320 760,-1243 837,-1243 837,-1320"/>
 <image xlink:href="img/agunesudezitaru.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="760" y="-1320"/>
 </a>
@@ -191,7 +191,7 @@
 <!-- タマモクロス -->
 <g id="node20" class="node">
 <title>タマモクロス</title>
-<g id="a_node20"><a xlink:href="https://umamusume.jp/character/tamamocross">
+<g id="a_node20"><a xlink:href="https://umamusume.jp/character/tamamocross&quot;">
 <polygon fill="none" stroke="black" points="932,-1320 855,-1320 855,-1243 932,-1243 932,-1320"/>
 <image xlink:href="img/tamamokurosu.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="855" y="-1320"/>
 </a>
@@ -201,7 +201,7 @@
 <!-- セイウンスカイ -->
 <g id="node21" class="node">
 <title>セイウンスカイ</title>
-<g id="a_node21"><a xlink:href="https://umamusume.jp/character/seiunsky">
+<g id="a_node21"><a xlink:href="https://umamusume.jp/character/seiunsky&quot;">
 <polygon fill="none" stroke="black" points="77,-1207 0,-1207 0,-1130 77,-1130 77,-1207"/>
 <image xlink:href="img/seiunsukai.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="0" y="-1207"/>
 </a>
@@ -1228,5 +1228,75 @@
 </g>
 </g>
 <!-- ジェンティルドンナ&#45;&gt;サクラチトセオー -->
+<!-- フェノーメノ -->
+<g id="node124" class="node">
+<title>フェノーメノ</title>
+<g id="a_node124"><a xlink:href="https://umamusume.jp/character/fenomeno">
+<polygon fill="none" stroke="black" points="362,-77 285,-77 285,0 362,0 362,-77"/>
+<image xlink:href="img/huenomeno.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="285" y="-77"/>
+</a>
+</g>
+</g>
+<!-- ウインバリアシオン&#45;&gt;フェノーメノ -->
+<!-- アーモンドアイ -->
+<g id="node125" class="node">
+<title>アーモンドアイ</title>
+<g id="a_node125"><a xlink:href="https://umamusume.jp/character/almondeye">
+<polygon fill="none" stroke="black" points="457,-77 380,-77 380,0 457,0 457,-77"/>
+<image xlink:href="img/amondoai.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="380" y="-77"/>
+</a>
+</g>
+</g>
+<!-- ドリームジャーニー&#45;&gt;アーモンドアイ -->
+<!-- ラッキーライラック -->
+<g id="node126" class="node">
+<title>ラッキーライラック</title>
+<g id="a_node126"><a xlink:href="https://umamusume.jp/character/luckylilac">
+<polygon fill="none" stroke="black" points="552,-77 475,-77 475,0 552,0 552,-77"/>
+<image xlink:href="img/ratsukirairatsuku.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="475" y="-77"/>
+</a>
+</g>
+</g>
+<!-- ブエナビスタ&#45;&gt;ラッキーライラック -->
+<!-- グランアレグリア -->
+<g id="node127" class="node">
+<title>グランアレグリア</title>
+<g id="a_node127"><a xlink:href="https://umamusume.jp/character/granalegria">
+<polygon fill="none" stroke="black" points="647,-77 570,-77 570,0 647,0 647,-77"/>
+<image xlink:href="img/guranareguria.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="570" y="-77"/>
+</a>
+</g>
+</g>
+<!-- ビリーヴ&#45;&gt;グランアレグリア -->
+<!-- ラヴズオンリーユー -->
+<g id="node128" class="node">
+<title>ラヴズオンリーユー</title>
+<g id="a_node128"><a xlink:href="https://umamusume.jp/character/lovesonlyyou">
+<polygon fill="none" stroke="black" points="742,-77 665,-77 665,0 742,0 742,-77"/>
+<image xlink:href="img/ravuzuonriyu.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="665" y="-77"/>
+</a>
+</g>
+</g>
+<!-- カルストンライトオ&#45;&gt;ラヴズオンリーユー -->
+<!-- クロノジェネシス -->
+<g id="node129" class="node">
+<title>クロノジェネシス</title>
+<g id="a_node129"><a xlink:href="https://umamusume.jp/character/chronogenesis">
+<polygon fill="none" stroke="black" points="837,-77 760,-77 760,0 837,0 837,-77"/>
+<image xlink:href="img/kuronozieneshisu.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="760" y="-77"/>
+</a>
+</g>
+</g>
+<!-- デュランダル&#45;&gt;クロノジェネシス -->
+<!-- カレンブーケドール -->
+<g id="node130" class="node">
+<title>カレンブーケドール</title>
+<g id="a_node130"><a xlink:href="https://umamusume.jp/character/currenbouquetdor">
+<polygon fill="none" stroke="black" points="932,-77 855,-77 855,0 932,0 932,-77"/>
+<image xlink:href="img/karenbukedoru.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="855" y="-77"/>
+</a>
+</g>
+</g>
+<!-- バブルガムフェロー&#45;&gt;カレンブーケドール -->
 </g>
 </svg>
