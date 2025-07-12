@@ -22,8 +22,15 @@ def load_bloodline_from_csv(csv_file):
 
 # 画像のパス取得
 def get_image_path(image_name):
-    image_path = f"img/{image_name}.png"
-    return image_path if os.path.isfile(image_path) else "img/mob.png"
+    # .pngが付いていなければ付ける
+    if not image_name.endswith(".png"):
+        image_name += ".png"
+    base_dir = os.path.dirname(__file__)
+    image_path = os.path.join(base_dir, "img", image_name)
+    if os.path.isfile(image_path):
+        return image_path
+    else:
+        return os.path.join(base_dir, "img", "mob.png")
 
 # 再帰的に血統図を生成する関数（複数の名前を処理できるように変更）
 def create_combined_bloodline_image(names, bloodlines_dict):
@@ -36,7 +43,7 @@ def create_combined_bloodline_image(names, bloodlines_dict):
     # 左上固定のテキストを追加
     dot.node("fixed_label", label="左上固定のテキスト", shape="none", pos="-1,0!")
     def process_individual(name, depth=0):
-        if depth > 24:  # 無限ループ防止
+        if depth > 25:  # 無限ループ防止
             return
         
         row = bloodlines_dict.get(name)
@@ -70,10 +77,16 @@ def create_combined_bloodline_image(names, bloodlines_dict):
     # 各個体を処理
     for name in names:
         process_individual(name)
+    # カレントディレクトリ配下の svg フォルダ
+    output_dir = os.path.join(os.getcwd(), "svg")
+    os.makedirs(output_dir, exist_ok=True)  # svgフォルダが無ければ作成
+
+    filename = "uma_blood_netkeiba5_cfm_f"
+    filepath = os.path.join(output_dir, filename)
 
     # SVGファイルを保存
-    filename = "uma_blood_netkeiba5_cfm_f"  
-    output_path = dot.render(filename, cleanup=True)
+    output_path = dot.render(filepath, cleanup=True, format="svg")
+    print(f"SVGファイルが生成されました: {output_path}")
     print(f"SVGファイルが生成されました: {output_path}")
 
 # CSV読み込み
@@ -219,5 +232,7 @@ names = [
     "ラッキーライラック",
     "アーモンドアイ",
     "フェノーメノ",
+    "ステイゴールド",
+    "ビターグラッセ",
     ]
 create_combined_bloodline_image(names, bloodlines_dict)

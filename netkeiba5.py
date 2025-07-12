@@ -25,8 +25,15 @@ def load_bloodline_from_csv(csv_file):
 
 # 画像のパス取得
 def get_image_path(image_name):
-    image_path = f"img/{image_name}.png"
-    return image_path if os.path.isfile(image_path) else "img/mob.png"
+    # .pngが付いていなければ付ける
+    if not image_name.endswith(".png"):
+        image_name += ".png"
+    base_dir = os.path.dirname(__file__)
+    image_path = os.path.join(base_dir, "img", image_name)
+    if os.path.isfile(image_path):
+        return image_path
+    else:
+        return os.path.join(base_dir, "img", "mob.png")
 
 def process_horse(index_tuple, ancestor_list, processed, data):
     """馬の父母を取得し、データをリストに追加する"""
@@ -113,8 +120,15 @@ def create_combined_bloodline_image(name, bloodlines_dict):
             for name in generation:
                 s.node(name)
     
-    filename = os.path.splitext(csv_file)[0]  # CSVファイル名（拡張子なし）
-    output_path = dot.render(filename, cleanup=True)
+    # カレントディレクトリ配下のsvgフォルダを指定
+    output_dir = os.path.join(os.getcwd(), "svg")
+    os.makedirs(output_dir, exist_ok=True)  # フォルダが無ければ作成
+
+    # 出力ファイル名（フォルダ込みで指定）
+    filename = os.path.join(output_dir, os.path.splitext(csv_file)[0])
+
+    # SVGファイルを生成
+    output_path = dot.render(filename, cleanup=True, format="svg")
     print(f"SVGファイルが生成されました: {output_path}")
 
 # インデックスセット
@@ -173,10 +187,17 @@ with open(input_filename, newline='', encoding="utf-8") as f:
         csv_file = output_filename
         bloodlines_dict = load_bloodline_from_csv(csv_file)
 
+        # 出力先フォルダを指定
+        output_dir = os.path.join(os.getcwd(), "svg")
+        os.makedirs(output_dir, exist_ok=True)  # フォルダが無ければ作成
+
+        # 出力先ファイルパス
+        output_file = os.path.join(output_dir, f"{name}.svg")
+
         # 血統図ファイルが既に存在する場合はスキップ
-        if not os.path.exists(f"{name}.svg"):
+        if not os.path.exists(output_file):
             # **血統図を生成**
             create_combined_bloodline_image(name, bloodlines_dict)
         else:
-            print(f"{name}.svg は既に存在するためスキップします。")
+            print(f"{output_file} は既に存在するためスキップします。")
 
