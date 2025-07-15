@@ -189,7 +189,9 @@ def create_combined_bloodline_image_google(name, bloodlines_dict):
     output_file = os.path.join(output_dir, name)
     final_output_path = dot.render(output_file, cleanup=True, format="svg")
     print(f"✅ SVG生成完了: {final_output_path}")
-
+    # ローカル画像パス → GitHub Pages URL に置換
+    replace_images_with_urls(final_output_path)
+    
 def update_fixed_label_in_svg(svg_path):
     """
     SVGのfixed_label部分を書き換える
@@ -244,3 +246,20 @@ def process_horse(index_tuple, ancestor_list, processed, data):
 
     data.append([name, father, mother])
     processed.add(name)
+    
+def replace_images_with_urls(svg_path):
+    """
+    SVG内のローカル画像パスをGitHub PagesのURLに置換する
+    """
+    github_img_base = "https://channkenn.github.io/uma_blood/img/"
+
+    with open(svg_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    # img/ のローカルパスをURLに置換
+    content = content.replace('xlink:href="img/', f'xlink:href="{github_img_base}')
+
+    with open(svg_path, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(f"✅ 画像パスをURLに置換しました: {svg_path}")
