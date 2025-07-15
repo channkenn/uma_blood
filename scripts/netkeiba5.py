@@ -3,7 +3,7 @@
 import csv
 import os
 from bloodline import load_bloodline_from_csv, create_combined_bloodline_image_google, process_horse
-from utils import get_csv_path, get_svg_path
+from utils import get_csv_path, get_svg_path, get_generated_csv_path
 index_set = [
     (0, 1, 32), (1, 2, 17), (2, 3, 10), (3, 4, 7), (4, 5, 6),
     (7, 8, 9), (10, 11, 14), (11, 12, 13), (14, 15, 16), (17, 18, 25),
@@ -35,13 +35,13 @@ def process_csv(input_filename):
                 process_horse(index_tuple, ancestor_list, processed, data)
 
             # CSVの出力先を utils.py で管理している csv フォルダに出力
-            output_filename = get_csv_path(f"{name}.csv")
+            output_filename = get_generated_csv_path(f"{name}.csv")
             with open(output_filename, mode="w", newline="", encoding="utf-8") as file:
                 writer = csv.writer(file)
                 writer.writerows(data)
 
             mode = "w" if first_loop else "a"
-            cfm_filename = get_csv_path("bloodline_netkeiba5_cfm.csv")
+            cfm_filename = get_generated_csv_path("bloodline_netkeiba5_cfm.csv")
             with open(cfm_filename, mode=mode, newline='', encoding="utf-8") as cfm_file:
                 writer = csv.writer(cfm_file)
                 if first_loop:

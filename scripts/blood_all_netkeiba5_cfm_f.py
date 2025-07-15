@@ -1,9 +1,9 @@
 import os
 from bloodline import create_combined_bloodline_image, load_bloodline_from_csv
-from utils import get_csv_path
+from utils import get_csv_path, get_generated_csv_path
 
-# ✅ 入力CSVファイル
-csv_file = get_csv_path("bloodline_netkeiba5_cfm.csv")
+# ✅ 入力CSVファイル csv/generated
+csv_file = get_generated_csv_path("bloodline_netkeiba5_cfm.csv")
 
 # ✅ CSV読み込み
 bloodlines_dict = load_bloodline_from_csv(csv_file)

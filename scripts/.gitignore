@@ -1,0 +1,2 @@
+# 生成CSVはGitに含めない
+csv/generated/
