@@ -1,7 +1,14 @@
 import os
 import shutil
+import re
 from unidecode import unidecode
 from utils import get_img_path
+
+def sanitize_filename(name):
+    """
+    Windowsで使えない文字を削除
+    """
+    return re.sub(r'[\\/:*?"<>|]', "", name)
 
 def rename_images_in_folder(input_subfolder="seq", output_subfolder=""):
     """
@@ -25,8 +32,9 @@ def rename_images_in_folder(input_subfolder="seq", output_subfolder=""):
     # PNGファイルをローマ字にリネームしてコピー
     for filename in files:
         if filename.lower().endswith('.png'):
-            katakana_name = os.path.splitext(filename)[0]  # 拡張子を除く
-            romaji_name = unidecode(katakana_name)         # ローマ字に変換
+            katakana_name = os.path.splitext(filename)[0]         # 拡張子を除く
+            romaji_name = unidecode(katakana_name).replace(" ", "")  # 半角スペース削除
+            romaji_name = sanitize_filename(romaji_name)          # 禁止文字削除
 
             input_path = os.path.join(input_folder, filename)
             output_path = os.path.join(output_folder, romaji_name + '.png')
@@ -36,9 +44,11 @@ def rename_images_in_folder(input_subfolder="seq", output_subfolder=""):
                 print(f"⚠ {output_path} は既に存在します。スキップします。")
                 continue
 
-            # ファイルをコピー
-            shutil.copy2(input_path, output_path)
-            print(f"✅ {filename} → {romaji_name}.png にコピーしました。")
+            try:
+                shutil.copy2(input_path, output_path)
+                print(f"✅ {filename} → {romaji_name}.png にコピーしました。")
+            except Exception as e:
+                print(f"❌ {filename} のコピー中にエラー: {e}")
 
 if __name__ == "__main__":
     rename_images_in_folder()
