@@ -1,4 +1,5 @@
 from collections import defaultdict
+import re
 from graphviz import Digraph
 from utils import get_img_path, get_svg_path, to_romaji
 import os
@@ -251,15 +252,23 @@ def replace_images_with_urls(svg_path):
     """
     SVG内のローカル画像パスをGitHub PagesのURLに置換する
     """
+
     github_img_base = "https://channkenn.github.io/uma_blood/img/"
 
     with open(svg_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # img/ のローカルパスをURLに置換
-    content = content.replace('xlink:href="img/', f'xlink:href="{github_img_base}')
+    # すべての \ を / に統一
+    normalized_content = content.replace("\\", "/")
+
+    # 正規表現でローカル img/ パスを GitHub Pages の URL に置換
+    new_content, count = re.subn(
+        r'xlink:href=".*?/img/',  # 任意のパス + /img/
+        f'xlink:href="{github_img_base}',  # ここ末尾に / を残さない
+        normalized_content
+    )
 
     with open(svg_path, "w", encoding="utf-8") as f:
-        f.write(content)
+        f.write(new_content)
 
-    print(f"✅ 画像パスをURLに置換しました: {svg_path}")
+    print(f"✅ 画像パスをGitHub URLに置換しました ({count} 箇所): {svg_path}")
