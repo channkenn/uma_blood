@@ -8,4 +8,4 @@ uma の血統表を見える化する
 画像の処理 1.ウマ娘から 400px のオリジナル画像をダウンロードして img/org に入れる
 2.resize_images.py を実行する。img/100px にリサイズされたウマ娘画像が入る
 3.img_sequence.py を実行する。img/seq に csv/bloodline.csv で定義された数字が付与されウマ娘画像が入る。
-4.resize_images.py を実行する。img/にローマ字化した数字付 100px ウマ娘画像が生成される。
+4.rename_images.py を実行する。img/にローマ字化した数字付 100px ウマ娘画像が生成される。

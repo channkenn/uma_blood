@@ -1420,5 +1420,15 @@
 <image xlink:href="c:\Users\chann\Documents\VScode\uma_blood\img\nozantesuto.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="570" y="-77"/>
 </g>
 <!-- リガントーナ&#45;&gt;ノーザンテースト -->
+<!-- アドマイヤグルーヴ -->
+<g id="node148" class="node">
+<title>アドマイヤグルーヴ</title>
+<g id="a_node148"><a xlink:href="https://umamusume.jp/character/admiregroove">
+<polygon fill="none" stroke="black" points="742,-77 665,-77 665,0 742,0 742,-77"/>
+<image xlink:href="c:\Users\chann\Documents\VScode\uma_blood\img\adomaiyaguruvu.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="665" y="-77"/>
+</a>
+</g>
+</g>
+<!-- ソノンエルフィー&#45;&gt;アドマイヤグルーヴ -->
 </g>
 </svg>
