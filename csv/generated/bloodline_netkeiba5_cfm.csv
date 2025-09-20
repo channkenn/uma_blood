@@ -1,5 +1,5 @@
 名前,父,母
-AndroclesAndrocles,Dollar,Alabama
+Androcles,Dollar,Alabama
 Dollar,The Flying Dutchman,Payment
 The Flying Dutchman,Bay Middleton,Barbelle
 Bay Middleton,Sultan,Cobweb
@@ -463,6 +463,36 @@ Belle of Troy,Blue Larkspur,La Troienne
 Soaring,Swaps,Skylarking
 Swaps,Khaled,Iron Reward
 Skylarking,Mirza,Jennie
+Dollar,The Flying Dutchman,Payment
+The Flying Dutchman,Bay Middleton,Barbelle
+Bay Middleton,Sultan,Cobweb
+Sultan,Selim,Bacchante
+Selim,Buzzard,Alexander Mare
+Bacchante,Williamson's Ditto,Mercury Mare
+Cobweb,Phantom,Filagree
+Phantom,Walton,Julia
+Filagree,Soothsayer,Web
+Barbelle,Sandbeck,Darioletta
+Sandbeck,Catton,Orvillina
+Catton,Golumpus,Lucy Gray
+Orvillina,Beningbrough,Evelina
+Darioletta,Amadis,Selima
+Amadis,Don Quixote,Fanny
+Selima,Selim,Pot-8-Os Mare
+Payment,Slane,Receipt
+Slane,Royal Oak,Orville Mare
+Royal Oak,Catton,Smolensko Mare
+Smolensko Mare,Smolensko,Lady Mary
+Orville Mare,Orville,Rosanne
+Orville,Beningbrough,Evelina
+Rosanne,Dick Andrews,Rosette
+Receipt,Rowton,Sam Mare
+Rowton,Oiseau,Katherina
+Oiseau,Camillus,Ruler Mare
+Katherina,Woful,Landscape
+Sam Mare,Sam,Morel
+Sam,Scud,Hyale
+Morel,Sorcerer,Hornby Lass
 Doncaster,Stockwell,Marigold
 Stockwell,The Baron,Pocahontas
 The Baron,Birdcatcher,Echidna
