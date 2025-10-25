@@ -150,5 +150,6 @@ names = [
     "ビターグラッセ",
     "アドマイヤグルーヴ",
     "レッドディザイア",
+    "リトルココン",
     ]
 create_combined_bloodline_image(names, bloodlines_dict)
