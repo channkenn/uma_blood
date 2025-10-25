@@ -1308,127 +1308,137 @@
 </g>
 </g>
 <!-- フサイチパンドラ&#45;&gt;ステイゴールド -->
-<!-- ハッピーミーク -->
-<g id="node132" class="node">
-<title>ハッピーミーク</title>
-<polygon fill="none" stroke="black" points="172,-190 95,-190 95,-113 172,-113 172,-190"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/hatsupimiku.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="95" y="-190"/>
-</g>
-<!-- ブラストワンピース&#45;&gt;ハッピーミーク -->
-<!-- ビターグラッセ -->
-<g id="node133" class="node">
-<title>ビターグラッセ</title>
-<polygon fill="none" stroke="black" points="267,-190 190,-190 190,-113 267,-113 267,-190"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/bitaguratsuse.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="190" y="-190"/>
-</g>
-<!-- サクラチトセオー&#45;&gt;ビターグラッセ -->
-<!-- リトルココン -->
-<g id="node134" class="node">
-<title>リトルココン</title>
-<polygon fill="none" stroke="black" points="362,-190 285,-190 285,-113 362,-113 362,-190"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/ritorukokon.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="285" y="-190"/>
-</g>
-<!-- フェノーメノ&#45;&gt;リトルココン -->
-<!-- ヴェニュスパーク -->
-<g id="node135" class="node">
-<title>ヴェニュスパーク</title>
-<polygon fill="none" stroke="black" points="457,-190 380,-190 380,-113 457,-113 457,-190"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/vueniyusupaku.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="380" y="-190"/>
-</g>
-<!-- アーモンドアイ&#45;&gt;ヴェニュスパーク -->
-<!-- バイアリーターク -->
-<g id="node136" class="node">
-<title>バイアリーターク</title>
-<polygon fill="none" stroke="black" points="552,-190 475,-190 475,-113 552,-113 552,-190"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/baiaritaku.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="475" y="-190"/>
-</g>
-<!-- ラッキーライラック&#45;&gt;バイアリーターク -->
-<!-- リガントーナ -->
-<g id="node137" class="node">
-<title>リガントーナ</title>
-<polygon fill="none" stroke="black" points="647,-190 570,-190 570,-113 647,-113 647,-190"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/rigantona.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="570" y="-190"/>
-</g>
-<!-- グランアレグリア&#45;&gt;リガントーナ -->
-<!-- ソノンエルフィー -->
-<g id="node138" class="node">
-<title>ソノンエルフィー</title>
-<polygon fill="none" stroke="black" points="742,-190 665,-190 665,-113 742,-113 742,-190"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/sononeruhui.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="665" y="-190"/>
-</g>
-<!-- ラヴズオンリーユー&#45;&gt;ソノンエルフィー -->
-<!-- ライトハロー -->
-<g id="node139" class="node">
-<title>ライトハロー</title>
-<polygon fill="none" stroke="black" points="837,-190 760,-190 760,-113 837,-113 837,-190"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/raitoharo.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="760" y="-190"/>
-</g>
-<!-- クロノジェネシス&#45;&gt;ライトハロー -->
-<!-- ダーレーアラビアン -->
-<g id="node140" class="node">
-<title>ダーレーアラビアン</title>
-<polygon fill="none" stroke="black" points="932,-190 855,-190 855,-113 932,-113 932,-190"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/darearabian.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="855" y="-190"/>
-</g>
-<!-- カレンブーケドール&#45;&gt;ダーレーアラビアン -->
-<!-- ゴドルフィンバルブ -->
-<g id="node141" class="node">
-<title>ゴドルフィンバルブ</title>
-<polygon fill="none" stroke="black" points="77,-77 0,-77 0,0 77,0 77,-77"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/godoruhuinbarubu.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="0" y="-77"/>
-</g>
-<!-- ステイゴールド&#45;&gt;ゴドルフィンバルブ -->
-<!-- シュガーライツ -->
-<g id="node142" class="node">
-<title>シュガーライツ</title>
-<polygon fill="none" stroke="black" points="172,-77 95,-77 95,0 172,0 172,-77"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/shiyugaraitsu.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="95" y="-77"/>
-</g>
-<!-- ハッピーミーク&#45;&gt;シュガーライツ -->
-<!-- セントライト -->
-<g id="node143" class="node">
-<title>セントライト</title>
-<polygon fill="none" stroke="black" points="267,-77 190,-77 190,0 267,0 267,-77"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/sentoraito.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="190" y="-77"/>
-</g>
-<!-- ビターグラッセ&#45;&gt;セントライト -->
-<!-- スピードシンボリ -->
-<g id="node144" class="node">
-<title>スピードシンボリ</title>
-<polygon fill="none" stroke="black" points="362,-77 285,-77 285,0 362,0 362,-77"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/supidoshinbori.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="285" y="-77"/>
-</g>
-<!-- リトルココン&#45;&gt;スピードシンボリ -->
-<!-- ハイセイコー -->
-<g id="node145" class="node">
-<title>ハイセイコー</title>
-<polygon fill="none" stroke="black" points="457,-77 380,-77 380,0 457,0 457,-77"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/haiseiko.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="380" y="-77"/>
-</g>
-<!-- ヴェニュスパーク&#45;&gt;ハイセイコー -->
-<!-- トキノミノル -->
-<g id="node146" class="node">
-<title>トキノミノル</title>
-<polygon fill="none" stroke="black" points="552,-77 475,-77 475,0 552,0 552,-77"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/tokinominoru.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="475" y="-77"/>
-</g>
-<!-- バイアリーターク&#45;&gt;トキノミノル -->
-<!-- ノーザンテースト -->
-<g id="node147" class="node">
-<title>ノーザンテースト</title>
-<polygon fill="none" stroke="black" points="647,-77 570,-77 570,0 647,0 647,-77"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/nozantesuto.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="570" y="-77"/>
-</g>
-<!-- リガントーナ&#45;&gt;ノーザンテースト -->
 <!-- アドマイヤグルーヴ -->
-<g id="node148" class="node">
+<g id="node132" class="node">
 <title>アドマイヤグルーヴ</title>
-<g id="a_node148"><a xlink:href="https://umamusume.jp/character/admiregroove">
-<polygon fill="none" stroke="black" points="742,-77 665,-77 665,0 742,0 742,-77"/>
-<image xlink:href="https://channkenn.github.io/uma_blood/img/adomaiyaguruvu.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="665" y="-77"/>
+<g id="a_node132"><a xlink:href="https://umamusume.jp/character/admiregroove">
+<polygon fill="none" stroke="black" points="172,-190 95,-190 95,-113 172,-113 172,-190"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/adomaiyaguruvu.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="95" y="-190"/>
 </a>
 </g>
 </g>
-<!-- ソノンエルフィー&#45;&gt;アドマイヤグルーヴ -->
+<!-- ブラストワンピース&#45;&gt;アドマイヤグルーヴ -->
+<!-- レッドディザイア -->
+<g id="node133" class="node">
+<title>レッドディザイア</title>
+<g id="a_node133"><a xlink:href="https://umamusume.jp/character/reddesire">
+<polygon fill="none" stroke="black" points="267,-190 190,-190 190,-113 267,-113 267,-190"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/retsudodeizaia.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="190" y="-190"/>
+</a>
+</g>
+</g>
+<!-- サクラチトセオー&#45;&gt;レッドディザイア -->
+<!-- ハッピーミーク -->
+<g id="node134" class="node">
+<title>ハッピーミーク</title>
+<polygon fill="none" stroke="black" points="362,-190 285,-190 285,-113 362,-113 362,-190"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/hatsupimiku.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="285" y="-190"/>
+</g>
+<!-- フェノーメノ&#45;&gt;ハッピーミーク -->
+<!-- ビターグラッセ -->
+<g id="node135" class="node">
+<title>ビターグラッセ</title>
+<polygon fill="none" stroke="black" points="457,-190 380,-190 380,-113 457,-113 457,-190"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/bitaguratsuse.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="380" y="-190"/>
+</g>
+<!-- アーモンドアイ&#45;&gt;ビターグラッセ -->
+<!-- リトルココン -->
+<g id="node136" class="node">
+<title>リトルココン</title>
+<polygon fill="none" stroke="black" points="552,-190 475,-190 475,-113 552,-113 552,-190"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/ritorukokon.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="475" y="-190"/>
+</g>
+<!-- ラッキーライラック&#45;&gt;リトルココン -->
+<!-- ヴェニュスパーク -->
+<g id="node137" class="node">
+<title>ヴェニュスパーク</title>
+<polygon fill="none" stroke="black" points="647,-190 570,-190 570,-113 647,-113 647,-190"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/vueniyusupaku.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="570" y="-190"/>
+</g>
+<!-- グランアレグリア&#45;&gt;ヴェニュスパーク -->
+<!-- バイアリーターク -->
+<g id="node138" class="node">
+<title>バイアリーターク</title>
+<polygon fill="none" stroke="black" points="742,-190 665,-190 665,-113 742,-113 742,-190"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/baiaritaku.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="665" y="-190"/>
+</g>
+<!-- ラヴズオンリーユー&#45;&gt;バイアリーターク -->
+<!-- リガントーナ -->
+<g id="node139" class="node">
+<title>リガントーナ</title>
+<polygon fill="none" stroke="black" points="837,-190 760,-190 760,-113 837,-113 837,-190"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/rigantona.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="760" y="-190"/>
+</g>
+<!-- クロノジェネシス&#45;&gt;リガントーナ -->
+<!-- ソノンエルフィー -->
+<g id="node140" class="node">
+<title>ソノンエルフィー</title>
+<polygon fill="none" stroke="black" points="932,-190 855,-190 855,-113 932,-113 932,-190"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/sononeruhui.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="855" y="-190"/>
+</g>
+<!-- カレンブーケドール&#45;&gt;ソノンエルフィー -->
+<!-- ライトハロー -->
+<g id="node141" class="node">
+<title>ライトハロー</title>
+<polygon fill="none" stroke="black" points="77,-77 0,-77 0,0 77,0 77,-77"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/raitoharo.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="0" y="-77"/>
+</g>
+<!-- ステイゴールド&#45;&gt;ライトハロー -->
+<!-- ダーレーアラビアン -->
+<g id="node142" class="node">
+<title>ダーレーアラビアン</title>
+<polygon fill="none" stroke="black" points="172,-77 95,-77 95,0 172,0 172,-77"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/darearabian.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="95" y="-77"/>
+</g>
+<!-- アドマイヤグルーヴ&#45;&gt;ダーレーアラビアン -->
+<!-- ゴドルフィンバルブ -->
+<g id="node143" class="node">
+<title>ゴドルフィンバルブ</title>
+<polygon fill="none" stroke="black" points="267,-77 190,-77 190,0 267,0 267,-77"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/godoruhuinbarubu.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="190" y="-77"/>
+</g>
+<!-- レッドディザイア&#45;&gt;ゴドルフィンバルブ -->
+<!-- シュガーライツ -->
+<g id="node144" class="node">
+<title>シュガーライツ</title>
+<polygon fill="none" stroke="black" points="362,-77 285,-77 285,0 362,0 362,-77"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/shiyugaraitsu.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="285" y="-77"/>
+</g>
+<!-- ハッピーミーク&#45;&gt;シュガーライツ -->
+<!-- セントライト -->
+<g id="node145" class="node">
+<title>セントライト</title>
+<polygon fill="none" stroke="black" points="457,-77 380,-77 380,0 457,0 457,-77"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/sentoraito.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="380" y="-77"/>
+</g>
+<!-- ビターグラッセ&#45;&gt;セントライト -->
+<!-- スピードシンボリ -->
+<g id="node146" class="node">
+<title>スピードシンボリ</title>
+<polygon fill="none" stroke="black" points="552,-77 475,-77 475,0 552,0 552,-77"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/supidoshinbori.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="475" y="-77"/>
+</g>
+<!-- リトルココン&#45;&gt;スピードシンボリ -->
+<!-- ハイセイコー -->
+<g id="node147" class="node">
+<title>ハイセイコー</title>
+<polygon fill="none" stroke="black" points="647,-77 570,-77 570,0 647,0 647,-77"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/haiseiko.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="570" y="-77"/>
+</g>
+<!-- ヴェニュスパーク&#45;&gt;ハイセイコー -->
+<!-- トキノミノル -->
+<g id="node148" class="node">
+<title>トキノミノル</title>
+<polygon fill="none" stroke="black" points="742,-77 665,-77 665,0 742,0 742,-77"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/tokinominoru.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="665" y="-77"/>
+</g>
+<!-- バイアリーターク&#45;&gt;トキノミノル -->
+<!-- ノーザンテースト -->
+<g id="node149" class="node">
+<title>ノーザンテースト</title>
+<polygon fill="none" stroke="black" points="837,-77 760,-77 760,0 837,0 837,-77"/>
+<image xlink:href="https://channkenn.github.io/uma_blood/img/nozantesuto.png" width="77px" height="77px" preserveAspectRatio="xMinYMin meet" x="760" y="-77"/>
+</g>
+<!-- リガントーナ&#45;&gt;ノーザンテースト -->
 </g>
 </svg>
